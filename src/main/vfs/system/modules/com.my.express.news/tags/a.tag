@@ -8,10 +8,10 @@
 
 
 <%@ attribute name="link" type="java.lang.String" required="true"
-              description="The link to format. Must be a generic Apollo nested link content."%>
+              description="The URI."%>
 
 <%@ attribute name="text" type="java.lang.String" required="false"
-              description="The link to format. Must be a generic Apollo nested link content."%>
+              description="The title to display."%>
 
 <%@ attribute name="cssclass" type="java.lang.String" required="false"
               description="CSS class added to the generated link tag"%>
@@ -28,26 +28,39 @@
 <c:choose>
     <c:when test="${not empty link}">
         <c:set var="cmsLink"><cms:link>${link}</cms:link></c:set>
-        <c:set var="prefix" value="${requestScope['javax.servlet.forward.request_uri']}"/>
-        <c:set var="rewriteUrl" value="${fn:replace(cmsLink, prefix , '')}"/>
+
+        <c:set var="rewriteUrl" value="${cmsLink}" />
+
+        <c:if test="${!cms.isEditMode}">
+            <c:set var="contextPath" value="${pageContext.request.contextPath}"/>
+            <c:set var="subSitePath" value="${cms.subSitePath}"/>
+            <c:set var="rewriteUrl1" value="${fn:replace(cmsLink, contextPath , '')}" />
+            <c:set var="rewriteUrl2" value="${fn:replace(rewriteUrl1, subSitePath , '')}" />
+            <c:set var="rewriteUrl" value="${rewriteUrl2}" />
+
+            <c:if test="${!fn:startsWith(rewriteUrl, '/')}">
+                <c:set var="rewriteUrl" value="/${rewriteUrl}" />
+            </c:if>
+        </c:if>
 
         <a href="${rewriteUrl}"
            <c:if test="${not empty cssclass}">${' '}class="${cssclass}"</c:if>
         >
             <c:choose>
+                <%--CmsLink :${cmsLink} <br/>--%>
+                <%--ContextPath : ${contextPath} <br/>--%>
+                <%--SubSitePath : ${subSitePath} <br/>--%>
+                <%--Rewrite : ${rewriteUrl}--%>
                 <c:when test="${empty bodyVal and not empty text}">
                     ${text}
                 </c:when>
-                <c:when test="${empty bodyVal}">
-                    <c:if test="${empty text}">
-                        More
-                    </c:if>
-                    ${text}
+                <c:when test="${empty bodyVal and empty text}">
+
                 </c:when>
 
-                <%-- ####### JSP body inserted here ######## --%>
+                 <%--&lt;%&ndash;####### JSP body inserted here ########&ndash;%&gt;--%>
                 <c:otherwise>${bodyVal}</c:otherwise>
-                <%-- ####### /JSP body inserted here ######## --%>
+                 <%--&lt;%&ndash;####### /JSP body inserted here ########&ndash;%&gt;--%>
             </c:choose>
         </a>
     </c:when>
