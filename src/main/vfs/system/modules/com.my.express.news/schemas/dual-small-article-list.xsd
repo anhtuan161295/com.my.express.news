@@ -1,0 +1,22 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.my.express.news/schemas/nested/article-list.xsd"/>
+
+	<xsd:element name="ExpressNewsDualSmallArticleLists" type="OpenCmsExpressNewsDualSmallArticleLists"/>
+
+	<xsd:complexType name="OpenCmsExpressNewsDualSmallArticleLists">
+		<xsd:sequence>
+			<xsd:element name="ExpressNewsDualSmallArticleList" type="OpenCmsExpressNewsDualSmallArticleList" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsExpressNewsDualSmallArticleList">
+		<xsd:sequence>
+			<xsd:element name="LeftArticleList" type="OpenCmsExpressNewsArticleList" />
+			<xsd:element name="RightArticleList" type="OpenCmsExpressNewsArticleList" />
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+
+</xsd:schema>

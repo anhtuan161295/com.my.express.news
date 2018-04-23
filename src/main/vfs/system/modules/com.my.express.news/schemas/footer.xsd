@@ -1,0 +1,54 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+	<xsd:element name="ExpressNewsFooters" type="OpenCmsExpressNewsFooters"/>
+	<xsd:complexType name="OpenCmsExpressNewsFooters">
+		<xsd:sequence>
+			<xsd:element name="ExpressNewsFooter" type="OpenCmsExpressNewsFooter" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsExpressNewsFooter">
+		<xsd:sequence>
+			<xsd:element name="AboutUsLabel" type="OpenCmsString"/>
+			<xsd:element name="AboutUs" type="OpenCmsString"/>
+			<xsd:element name="CategoriesLabel" type="OpenCmsString"/>
+			<xsd:element name="Categories" type="OpenCmsVarLink" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="FeedsLabel" type="OpenCmsString"/>
+			<xsd:element name="Feeds" type="OpenCmsVarLink" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="ContactUsLabel" type="OpenCmsString"/>
+			<xsd:element name="OurHeadquarterText" type="OpenCmsString"/>
+			<xsd:element name="Address" type="OpenCmsString"/>
+			<xsd:element name="PhoneNumber" type="OpenCmsString"/>
+			<xsd:element name="Email" type="OpenCmsString"/>
+			<xsd:element name="CopyrightText" type="OpenCmsString"/>
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<mappings>
+				<!--<mapping element="Title" mapto="property:Title" />-->
+				<!--<mapping element="Title" mapto="urlName" />-->
+			</mappings>
+			<defaults>
+				<!--<default element="Title" value="Add a new title here" />-->
+				<!--<default element="Text" value="Add your text" />-->
+			</defaults>
+			<layouts>
+				<layout element="AboutUs" widget="HtmlWidget"
+					configuration="height:400px,link,anchor,source,downloadgallery,formatselect"/>
+				<layout element="CopyrightText" widget="HtmlWidget"
+					configuration="height:400px,link,anchor,source,downloadgallery,formatselect"/>
+				<!--<layout element="Text" widget="HtmlWidget" configuration="downloadgallery" />-->
+				<!--<layout element="Image" widget="ImageGalleryWidget" configuration="{useformat:true}" />-->
+			</layouts>
+			<validationrules/>
+			<relations/>
+			<searchsettings containerPageOnly="false"/>
+		</xsd:appinfo>
+	</xsd:annotation>
+
+</xsd:schema>

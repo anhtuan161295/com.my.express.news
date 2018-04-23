@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsMediumArticleLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/medium-article-list.xsd">
+  <ExpressNewsMediumArticleList language="en">
+    <Title><![CDATA[Life Style]]></Title>
+    <ResourcePath>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/]]></target>
+        <uuid>6833c1b4-3307-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </ResourcePath>
+    <TypesToCollect>express-news-article:c2c75a27-3bc9-11e8-9ea4-e5c82a707ed0</TypesToCollect>
+    <ResourceLimit><![CDATA[4]]></ResourceLimit>
+  </ExpressNewsMediumArticleList>
+</ExpressNewsMediumArticleLists>

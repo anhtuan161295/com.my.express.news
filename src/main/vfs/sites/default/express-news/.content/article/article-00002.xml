@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/article.xsd">
+  <ExpressNewsArticle language="en">
+    <Title><![CDATA[TP HCM yêu cầu hủy bán hơn 300.000 m2 đất công giá rẻ]]></Title>
+    <ShortDescription><![CDATA[Khẳng định việc bán hơn 30 ha đất ở huyện Nhà Bè cho doanh nghiệp là trái quy định, Thành uỷ TP HCM yêu cầu huỷ giao dịch này.]]></ShortDescription>
+    <Thumbnail>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/l1.jpg]]></target>
+        <uuid>05b83317-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Thumbnail>
+    <VideoLink/>
+    <Content><![CDATA[<h2 class="description">Khẳng định việc bán hơn 30 ha đất ở huyện Nhà Bè cho doanh nghiệp là trái quy định, Thành uỷ TP HCM yêu cầu huỷ giao dịch này.</h2>
+<article class="content_detail fck_detail width_common block_ads_connect">
+<p class="Normal">Tối 18/4, Văn phòng Thành ủy TP HCM thông báo về việc chuyển nhượng khu đất hơn 30 ha của Công ty TNHH Một thành viên đầu tư và xây dựng Tân Thuận (100% vốn thuộc Văn phòng Thành ủy) cho Công ty cổ phần Quốc Cường Gia Lai.</p>
+<p class="Normal">Khu đất này đã đền bù, thuộc&nbsp;Khu dân cư Phước Kiển (xã Phước Kiển, huyện Nhà Bè),&nbsp;có vị trí đẹp ở gần sông Sài Gòn, nhưng&nbsp;được chuyển nhượng&nbsp;với giá 1,29 triệu đồng mỗi m2 vào tháng 6/2017.</p>
+<p class="Normal">Giao dịch bị cho là&nbsp;thiếu minh bạch, không qua đấu thầu, giá chuyển nhượng rẻ hơn nhiều lần so với giá thị trường. Công ty Tân Thuận thu về cho ngân sách số tiền hơn 400 tỷ đồng, trong khi nếu bán theo giá thị trường có thể thu về hơn 2.000 tỷ.</p>
+<p class="Normal">Theo Thành ủy TP HCM, đây là tài sản kinh tế Đảng, nhưng tập thể Thường trực và tập thể Ban Thường vụ Thành ủy không biết việc ký chuyển nhượng vào thời điểm giao dịch.</p>
+<p class="Normal">Đến ngày 27/12/2017, Thường trực Thành ủy đã chỉ đạo dừng chuyển nhượng, yêu cầu đàm phán lại và báo cáo chi tiết.</p>
+<p class="Normal">Hôm nay, sau khi nghe báo cáo, Ban Thường vụ Thành ủy đã thảo luận và đánh giá việc ký kết hợp đồng không đúng&nbsp;<em>Quy chế quản lý, sử dụng tài sản là nhà, quyền sử dụng đất tại các công ty trách nhiệm hữu hạn một thành viên thuộc sở hữu của Đảng bộ thành phố</em>&nbsp;(Quyết định 1087-QĐ/TU ngày 31/3/2009).</p>
+<p class="Normal">Theo đó, Ban Thường vụ Thành ủy TP HCM thống nhất yêu cầu hủy hợp đồng, không đồng ý bán chỉ định; đề nghị Thường vụ Thành ủy chỉ đạo giải quyết việc chuyển nhượng đúng quy định pháp luật.</p>
+<p class="Normal"><strong>Tuyết Nguyễn</strong></p>
+</article>
+<div class="width_common box_category">&nbsp;</div>
+<div id="box_morelink_detail" class="wrap_xemthem">&nbsp;</div>]]></Content>
+    <Date><![CDATA[On March 14]]></Date>
+    <Comment><![CDATA[34]]></Comment>
+    <View><![CDATA[43]]></View>
+    <Like><![CDATA[43]]></Like>
+  </ExpressNewsArticle>
+</ExpressNewsArticles>

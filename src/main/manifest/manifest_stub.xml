@@ -1,0 +1,142 @@
+<export>
+    <info>
+        <creator>Admin</creator>
+        <opencms_version>10.5.3</opencms_version>
+        <createdate>Mon, 23 Apr 2018 05:49:29 GMT</createdate>
+        <infoproject>Offline</infoproject>
+        <export_version>7</export_version>
+    </info>
+    <module>
+        <name>com.my.express.news</name>
+        <nicename><![CDATA[my express news]]></nicename>
+        <class/>
+        <export-mode name="default"/>
+        <description/>
+        <version>0.1</version>
+        <authorname><![CDATA[tuan.dna]]></authorname>
+        <authoremail><![CDATA[tuan.dna@sutrixsolutions.com]]></authoremail>
+        <datecreated/>
+        <userinstalled/>
+        <dateinstalled/>
+        <dependencies/>
+        <exportpoints>
+            <exportpoint uri="/system/modules/com.my.express.news/classes/" destination="WEB-INF/classes/"/>
+            <exportpoint uri="/system/modules/com.my.express.news/tags/" destination="WEB-INF/tags/express-news/"/>
+        </exportpoints>
+        <resources>
+            <resource uri="/system/modules/com.my.express.news/"/>
+            <resource uri="/system/workplace/resources/filetypes/express-news.png"/>
+            <resource uri="/system/workplace/resources/filetypes/express-news_big.png"/>
+            <resource uri="/sites/default/express-news/"/>
+        </resources>
+        <excluderesources/>
+        <parameters/>
+        <resourcetypes>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-header" id="20297">
+                <param name="schema">/system/modules/com.my.express.news/schemas/header.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-footer" id="20822">
+                <param name="schema">/system/modules/com.my.express.news/schemas/footer.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-layout" id="20823">
+                <param name="schema">/system/modules/com.my.express.news/schemas/layout.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-sign-up-form" id="20824">
+                <param name="schema">/system/modules/com.my.express.news/schemas/sign-up-form.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-slider" id="20825">
+                <param name="schema">/system/modules/com.my.express.news/schemas/slider.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-accordation-menu" id="20826">
+                <param name="schema">/system/modules/com.my.express.news/schemas/accordation-menu.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-popular-article-list" id="20827">
+                <param name="schema">/system/modules/com.my.express.news/schemas/popular-article-list.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-sidebar-article-list" id="20828">
+                <param name="schema">/system/modules/com.my.express.news/schemas/sidebar-article-list.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-tag" id="20829">
+                <param name="schema">/system/modules/com.my.express.news/schemas/tag.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-layout-detail" id="20831">
+                <param name="schema">/system/modules/com.my.express.news/schemas/layout-detail.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-share" id="20832">
+                <param name="schema">/system/modules/com.my.express.news/schemas/share.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-large-article-list" id="20833">
+                <param name="schema">/system/modules/com.my.express.news/schemas/large-article-list.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-article" id="20834">
+                <param name="schema">/system/modules/com.my.express.news/schemas/article.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-medium-article-list" id="20835">
+                <param name="schema">/system/modules/com.my.express.news/schemas/medium-article-list.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-dual-small-article-list" id="20836">
+                <param name="schema">/system/modules/com.my.express.news/schemas/dual-small-article-list.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-categories" id="20837">
+                <param name="schema">/system/modules/com.my.express.news/schemas/categories.xsd</param>
+            </type>
+            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-search" id="20891">
+                <param name="schema">/system/modules/com.my.express.news/schemas/search.xsd</param>
+            </type>
+        </resourcetypes>
+        <explorertypes>
+            <explorertype name="express-news-header" key="fileicon.express-news-header" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-header" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-header" key="title.express-news-header"/>
+            </explorertype>
+            <explorertype name="express-news-footer" key="fileicon.express-news-footer" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-footer" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-footer" key="title.express-news-footer"/>
+            </explorertype>
+            <explorertype name="express-news-layout" key="fileicon.express-news-layout" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-layout" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-layout" key="title.express-news-layout"/>
+            </explorertype>
+            <explorertype name="express-news-sign-up-form" key="fileicon.express-news-sign-up-form" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-sign-up-form" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-sign-up-form" key="title.express-news-sign-up-form"/>
+            </explorertype>
+            <explorertype name="express-news-slider" key="fileicon.express-news-slider" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-slider" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-slider" key="title.express-news-slider"/>
+            </explorertype>
+            <explorertype name="express-news-accordation-menu" key="fileicon.express-news-accordation-menu" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-accordation-menu" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-accordation-menu" key="title.express-news-accordation-menu"/>
+            </explorertype>
+            <explorertype name="express-news-popular-article-list" key="fileicon.express-news-popular-article-list" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-popular-article-list" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-popular-article-list" key="title.express-news-popular-article-list"/>
+            </explorertype>
+            <explorertype name="express-news-sidebar-article-list" key="fileicon.express-news-sidebar-article-list" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-sidebar-article-list" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-sidebar-article-list" key="title.express-news-sidebar-article-list"/>
+            </explorertype>
+            <explorertype name="express-news-tag" key="fileicon.express-news-tag" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-tag" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-tag" key="title.express-news-tag"/>
+            </explorertype>
+            <explorertype name="express-news-layout-detail" key="fileicon.express-news-layout-detail" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-layout-detail" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-layout-detail" key="title.express-news-layout-detail"/>
+            </explorertype>
+            <explorertype name="express-news-share" key="fileicon.express-news-share" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-share" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-share" key="title.express-news-share"/>
+            </explorertype>
+            <explorertype name="express-news-large-article-list" key="fileicon.express-news-large-article-list" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-large-article-list" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-large-article-list" key="title.express-news-large-article-list"/>
+            </explorertype>
+            <explorertype name="express-news-article" key="fileicon.express-news-article" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-article" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-article" key="title.express-news-article"/>
+            </explorertype>
+            <explorertype name="express-news-medium-article-list" key="fileicon.express-news-medium-article-list" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-medium-article-list" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-medium-article-list" key="title.express-news-medium-article-list"/>
+            </explorertype>
+            <explorertype name="express-news-dual-small-article-list" key="fileicon.express-news-dual-small-article-list" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-dual-small-article-list" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-dual-small-article-list" key="title.express-news-dual-small-article-list"/>
+            </explorertype>
+            <explorertype name="express-news-categories" key="fileicon.express-news-categories" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-categories" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-categories" key="title.express-news-categories"/>
+            </explorertype>
+            <explorertype name="express-news-search" key="fileicon.express-news-search" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
+                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-search" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-search" key="title.express-news-search"/>
+            </explorertype>
+        </explorertypes>
+    </module>
+    <files/>
+</export>

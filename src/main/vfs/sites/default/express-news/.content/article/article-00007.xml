@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/article.xsd">
+  <ExpressNewsArticle language="en">
+    <Title><![CDATA[Hàng chục người cứu sống vợ chồng bị chôn vùi hơn 30 phút]]></Title>
+    <ShortDescription><![CDATA[Phát hiện vợ chồng hàng xóm đang gắn ống nước bị hàng tấn đất sạt lở vùi dưới hố sâu, nhiều người dân ở Lâm Đồng chạy đến cứu.]]></ShortDescription>
+    <Thumbnail>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/fcrt1.jpg]]></target>
+        <uuid>04857f65-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Thumbnail>
+    <VideoLink/>
+    <Content><![CDATA[<h2 class="description">Phát hiện vợ chồng hàng xóm đang gắn ống nước bị hàng tấn đất sạt lở vùi dưới hố sâu, nhiều người dân ở Lâm Đồng chạy đến cứu.</h2>
+<article class="content_detail fck_detail width_common block_ads_connect">
+<table class="tplCaption" border="0" cellspacing="0" cellpadding="3" align="center">
+<tbody>
+<tr>
+<td><img src="https://i-vnexpress.vnecdn.net/2018/04/20/nan-nhan-1-5684-1524196509.jpg" alt="Người dân cùng máy múc đào bới tìm hai nạn nhân. Ảnh: Hoài Thanh." data-width="400" data-pwidth="500" /></td>
+</tr>
+<tr>
+<td>
+<p class="Image">Người dân cùng máy múc đào bới tìm hai nạn nhân. Ảnh:&nbsp;<em>Hoài Thanh.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="Normal">Chiều 19/4, chị Phạm Thị Thời (42 tuổi, ở xã Lộc Thành, huyện Bảo Lâm) cùng chồng đang đào đất để nối ống nước thải từ nhà băng qua đường. Bất ngờ, họ bị&nbsp;hàng tấn đất từ trên cao sạt xuống chôn vùi.</p>
+<p class="Normal">Hàng chục người dân địa phương và một máy múc ở gần hiện trường được huy động khẩn trương triển khai công tác cứu hộ, tìm kiếm nạn nhân. Sau hơn 30 phút&nbsp;thay nhau dùng cuốc, xẻng và máy đào bới, mọi người đã phát hiện được hai vợ chồng. Cả hai được đưa ra khỏi hố sâu 2 m, chuyển đi cấp cứu.</p>
+<table class="tplCaption" border="0" cellspacing="0" cellpadding="3" align="center">
+<tbody>
+<tr>
+<td><img src="https://i-vnexpress.vnecdn.net/2018/04/20/nan-nhann-4486-1524196509.jpg" alt="Nạn nhân được cứu ra khỏi hố sâu. Ảnh: Hoài Thanh." data-natural-width="500" data-width="500" data-pwidth="500" /></td>
+</tr>
+<tr>
+<td>
+<p class="Image">Nạn nhân được cứu ra khỏi hố sâu 2 m. Ảnh:&nbsp;<em>Hoài Thanh.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="Normal">Bác sĩ Huỳnh Ngọc Thành, Giám đốc Bệnh viện II Lâm Đồng cho biết, hai bệnh nhân nhập viện trong tình trạng người lấm lem đất cát, may mắn chỉ bị chấn thương nhẹ ở cột sống cổ và thắt lưng. Sau một đêm điều trị, sức khỏe của cả hai đã tương đối ổn định nên xin xuất viện về nhà.</p>
+<p class="Normal">Sáng nay, bà Vũ Thị Xuân, Chủ tịch UBND xã Lộc Thành đã đến&nbsp;nhà nạn nhân thăm hỏi, động viên tinh thần và hỗ trợ.&nbsp;"Việc hai vợ chồng được cứu sống khi bị hàng tấn đất vùi lấp hơn nửa giờ là một kỳ tích", bà Xuân nói và cho biết đang&nbsp;đề xuất tuyên dương, khen thưởng những người dân tham gia cứu hộ.</p>
+<p class="Normal" align="right"><strong>Hoài Thanh</strong></p>
+</article>
+<div class="width_common box_category">&nbsp;</div>
+<div id="box_morelink_detail" class="wrap_xemthem">&nbsp;</div>]]></Content>
+    <Date><![CDATA[On March 14]]></Date>
+    <Comment><![CDATA[34]]></Comment>
+    <View><![CDATA[43]]></View>
+    <Like><![CDATA[43]]></Like>
+  </ExpressNewsArticle>
+</ExpressNewsArticles>

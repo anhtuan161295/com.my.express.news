@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsCategories xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/categories.xsd">
+  <ExpressNewsCategory language="en">
+    <Title><![CDATA[Categories]]></Title>
+    <Category>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/home/]]></target>
+        <uuid>ccc58c7b-330d-11e8-b78e-e5c82a707ed0</uuid>
+      </link>
+    </Category>
+  </ExpressNewsCategory>
+</ExpressNewsCategories>

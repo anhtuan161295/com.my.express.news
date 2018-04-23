@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/article.xsd">
+  <ExpressNewsArticle language="en">
+    <Title><![CDATA[Mất hai triệu USD tiền ảo vì khoe trên YouTube]]></Title>
+    <ShortDescription><![CDATA[Một nhà đầu tư tiền kỹ thuật số đã bị đánh cắp số coin giá trị rất lớn vì để lộ thông tin trong quá trình phát video trực tuyến.]]></ShortDescription>
+    <Thumbnail>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/l1.jpg]]></target>
+        <uuid>05b83317-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Thumbnail>
+    <VideoLink/>
+    <Content><![CDATA[<article class="content_detail fck_detail width_common block_ads_connect">
+<p class="Normal">&nbsp;</p>
+<h2 class="description">Một nhà đầu tư tiền kỹ thuật số đã bị đánh cắp số coin giá trị rất lớn vì để lộ thông tin trong quá trình phát video trực tuyến.</h2>
+<article class="content_detail fck_detail width_common block_ads_connect">
+<p class="Normal">Ian Balina, cựu nhân viên bán hàng của IBM trước khi chuyển hẳn sang lĩnh vực đầu tư tiền kỹ thuật số, thường xuyên khoe các danh mục đầu tư lớn của mình. Balina từng chia sẻ ảnh chụp màn hình số tiền ảo và token (cổ phiếu trong lĩnh vực tiền điện tử) của mình trị giá hơn ba triệu USD.&nbsp;Chính việc hay khoe tài khoản đã khiến ông trở thành mục tiêu của tin tặc và phải trả giá đắt.&nbsp;</p>
+<table class="tplCaption" border="0" cellspacing="0" cellpadding="3" align="center">
+<tbody>
+<tr>
+<td><img src="https://i-sohoa.vnecdn.net/2018/04/20/Screen-Shot-2018-04-16-at-1-41-3283-7522-1524188140.png" alt="Người xem YouTube cảnh báo về sự bất thường với tài khoản của&nbsp;Balina." data-natural-width="500" data-width="500" data-pwidth="500" /></td>
+</tr>
+<tr>
+<td>
+<p class="Image">Người xem YouTube cảnh báo về sự bất thường với tài khoản của&nbsp;Balina.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="Normal">Trong một lần phát video trực tuyến trên YouTube, người xem phát hiện sự bất thường với tài khoản của&nbsp;Balina và đã cảnh báo ông.&nbsp;"Ian, anh có biết rằng ai đó đã chuyển đi tất cả token từ tài khoản của anh", thành viên có tên DABusiness bình luận. "Hy vọng đây là hành động được kiểm soát".</p>
+<p class="Normal">Nhà đầu tư phớt lờ cảnh báo trên nhưng đã phải ngừng phát video sau đó 15 phút khi&nbsp;phát hiện mình không thể đăng nhập được vào&nbsp;Google Spreadsheet, bảng tính mà&nbsp;Balina theo dõi các danh mục đầu tư. Sau khi kiểm tra lại, ông cho biết hầu hết token trị giá khoảng hai triệu USD đã bị rút khỏi tài khoản của mình.</p>
+<p class="Normal">Balina tin hacker đã chiếm tài khoản của ông thông qua email từ hồi đi học. Trong khi đó, nhà đầu tư này lưu mã khoá riêng tư (private key) trên ứng dụng ghi chú Evernote, dưới dạng văn bản được mã hoá bằng mật khẩu. Hiện tại, kẻ tấn công đã chuyển coin của Balina lên các sàn như&nbsp;Binance và KuCoin.</p>
+<table class="tplCaption" border="0" cellspacing="0" cellpadding="3" align="center">
+<tbody>
+<tr>
+<td><img src="https://i-sohoa.vnecdn.net/2018/04/20/Screen-Shot-2018-04-16-at-12-3-8869-1717-1524188140.png" alt="Các khoản đầu tư của&nbsp;Balina đã bị chuyển đi." data-natural-width="500" data-width="500" data-pwidth="500" /></td>
+</tr>
+<tr>
+<td>
+<p class="Image">Các khoản đầu tư của&nbsp;Balina đã bị chuyển đi.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="Normal">Vlog (nhật ký dưới dạng video) về tiền điện tử đã bùng nổ trên YouTube trong hai năm qua. Chỉ khoảng ba tháng nay, đã có 122.000 video về tiền kỹ thuật số được tải lên mạng chia sẻ của Google, thu hút 328 triệu lượt xem. Nhân vật trong các video này thường xuyên chia sẻ nhiều thông tin về bản thân nên dễ dàng trở thành đích ngắm của tin tặc.</p>
+<p class="Normal">"Bạn phải cẩn thận khi chia sẻ thông tin trên YouTube",&nbsp;Peter Saddington, nhà đầu tư tiền kỹ thuật số, người đã&nbsp;<a href="https://kinhdoanh.vnexpress.net/tin-tuc/quoc-te/mua-lamborghini-bang-bitcoin-3711254.html">mua một chiếc Lamborghini</a>&nbsp;với khoản tiền thu nhập từ Bitcoin, đánh giá. "Tôi nhận ra rằng việc chia sẻ các giao dịch của mình trên YouTube không phải ý tưởng hay".</p>
+<p class="Normal">Saddington bị tấn công hồi cuối 2017 khi ông thức dậy và phát hiện số điện thoại của mình đã bị chuyển cho người khác. Ông từ chối tiết lộ mình đã bị mất bao nhiêu tiền nhưng nói rằng "đó là số tiền đáng kể với tôi".&nbsp;Saddington cũng bị mất tài khoản trực tuyến mà ông dùng hàng chục năm qua.</p>
+<p class="author_mail"><strong>Bảo Anh</strong><a id="send_mail_author" class="email" data-article-id="3739261"></a></p>
+</article>
+</article>]]></Content>
+    <Date><![CDATA[On March 14]]></Date>
+    <Comment><![CDATA[34]]></Comment>
+    <View><![CDATA[43]]></View>
+    <Like><![CDATA[43]]></Like>
+  </ExpressNewsArticle>
+</ExpressNewsArticles>

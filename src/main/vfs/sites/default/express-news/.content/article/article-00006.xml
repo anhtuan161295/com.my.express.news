@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/article.xsd">
+  <ExpressNewsArticle language="en">
+    <Title><![CDATA[Facebook chi 1,5 triệu USD để Mark Zuckerberg du lịch khắp nước Mỹ]]></Title>
+    <ShortDescription><![CDATA[Riêng năm 2017, Facebook đã bỏ ra 9 triệu USD để thuê vệ sĩ và cung cấp máy bay riêng cho người đứng đầu đi du lịch.]]></ShortDescription>
+    <Thumbnail>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/fcrt1.jpg]]></target>
+        <uuid>04857f65-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Thumbnail>
+    <VideoLink/>
+    <Content><![CDATA[<article>
+<p class="author_mail">&nbsp;</p>
+<h2 class="description">Riêng năm 2017, Facebook đã bỏ ra 9 triệu USD để thuê vệ sĩ và cung cấp máy bay riêng cho người đứng đầu đi du lịch.</h2>
+<p class="related_news"><a title="Mối họa khôn lường khi check-in Facebook trong kỳ nghỉ" href="https://dulich.vnexpress.net/tin-tuc/tu-van/kinh-nghiem/moi-hoa-khon-luong-khi-check-in-facebook-trong-ky-nghi-3725590.html?ctr=related_news_click">Mối họa khôn lường khi check-in Facebook trong kỳ nghỉ</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp; <a title="COO Facebook thăm vịnh Hạ Long, đi thủy phi cơ về Hà Nội" href="https://dulich.vnexpress.net/photo/dau-chan/coo-facebook-tham-vinh-ha-long-di-thuy-phi-co-ve-ha-noi-3669028.html?ctr=related_news_click">COO Facebook thăm vịnh Hạ Long, đi thủy phi cơ về Hà Nội</a></p>
+<article class="content_detail fck_detail width_common block_ads_connect">
+<p class="Normal">Mỗi năm, Mark Zuckerberg, CEO của Facebook, lại đưa ra một thử thách mới cho bản thân. Năm 2017, thử thách của anh là đi khắp nước Mỹ và gặp gỡ mọi người trên 30 bang.&nbsp;</p>
+<table class="tplCaption" border="0" cellspacing="0" cellpadding="3" align="center">
+<tbody>
+<tr>
+<td><img src="https://i-dulich.vnecdn.net/2018/04/16/2-9217-1523847050.jpg" alt="Mark tới thăm Vườn quốc gia Clacier ở Montana, Mỹ hồi giữa tháng 7/2017." data-natural-width="500" data-pagespeed-url-hash="3266520098" data-width="500" data-pwidth="500" /></td>
+</tr>
+<tr>
+<td>
+<p class="Image">Mark tới thăm Vườn quốc gia Clacier ở Montana, Mỹ hồi giữa tháng 7/2017.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="Normal">Để thực hiện "ước nguyện" này của Mark, Facebook đã bỏ ra ít nhất 1,5 triệu USD cho các chuyến đi này. Phần lớn số tiền được dùng để điều máy bay riêng cho Mark,&nbsp;<em>CNN</em>&nbsp;đưa tin ngày 15/4. Số tiền này, theo tính toán, cao gấp 10 lần số tiền mà Apple bỏ ra để CEO Tim Cook đi du lịch.</p>
+<p class="Normal">Từ năm 2015, số tiền để chi trả cho Mark đi du lịch và thuê vệ sĩ lên đến 20 triệu USD.&nbsp;</p>
+<p class="Normal">Mark Zuckerberg được biết đến là một người thích ăn mặc giản dị, hiếm khi mặc vest và rất thích đi du lịch. Năm 2016, anh đã tới thăm nhiều quốc gia ở châu Âu. Anh cũng đã đến Việt Nam năm 2011, cùng bạn gái Priscilla Chan (hiện là vợ) và ghé thăm Sa Pa, Hà Nội, Hạ Long.</p>
+<p class="Normal">Theo các chuyên gia phân tích, năm 2018 có lẽ Mark sẽ đi du lịch ít hơn và dành nhiều thời gian hơn để làm việc sau sự cố rò rỉ thông tin người dùng.</p>
+</article>
+<p class="author_mail"><strong>Anh Minh</strong><a id="send_mail_author" class="email" data-article-id="3737207"></a></p>
+</article>]]></Content>
+    <Date><![CDATA[On March 14]]></Date>
+    <Comment><![CDATA[34]]></Comment>
+    <View><![CDATA[43]]></View>
+    <Like><![CDATA[43]]></Like>
+  </ExpressNewsArticle>
+</ExpressNewsArticles>

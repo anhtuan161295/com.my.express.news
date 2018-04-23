@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsSearchs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/search.xsd">
+  <ExpressNewsSearch language="en">
+    <Title><![CDATA[Search results]]></Title>
+    <SearchPath>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/]]></target>
+        <uuid>6833c1b4-3307-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </SearchPath>
+    <ResourceType><![CDATA[express-news-article]]></ResourceType>
+    <ResultPerPage><![CDATA[5]]></ResultPerPage>
+  </ExpressNewsSearch>
+</ExpressNewsSearchs>

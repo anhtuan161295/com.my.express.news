@@ -1,0 +1,51 @@
+<file>
+    <destination>${destination}</destination>
+    <type>folder</type>
+    <uuidstructure>a421d57a-32ff-11e8-b4b1-e5c82a707ed0</uuidstructure>
+    <datelastmodified>Thu, 29 Mar 2018 03:18:40 GMT</datelastmodified>
+    <userlastmodified>Admin</userlastmodified>
+    <datecreated>Thu, 29 Mar 2018 03:16:58 GMT</datecreated>
+    <usercreated>Admin</usercreated>
+    <flags>0</flags>
+    <properties>
+        <property>
+            <name>Description</name>
+            <value><![CDATA[The OpenCms demo, brought to you by Alkacon Software.]]></value>
+        </property>
+        <property>
+            <name>NavText</name>
+            <value><![CDATA[Overview]]></value>
+        </property>
+        <property>
+            <name>Title</name>
+            <value><![CDATA[Demo Site]]></value>
+        </property>
+        <property>
+            <name>apollo.css.iconbox</name>
+            <value><![CDATA[bg-grey-lighter:%(key.apollo.setting.cssclass.lightbox)|bg-red bo-radius-20:%(key.apollo.setting.cssclass.redbox)]]></value>
+        </property>
+        <property>
+            <name>apollo.css.wrapper</name>
+            <value><![CDATA[bg-blue:Blue background|bg-red:Red background|bg-grey-light:Grey background|bo-left-2 bo-red p-0 pl-10:Red line left|bo-right-1 bo-grey p-0 pr-5:Grey line right]]></value>
+        </property>
+        <property>
+            <name>apollo.title.prefix</name>
+            <value><![CDATA[OpenCms |]]></value>
+        </property>
+        <property>
+            <name>template</name>
+            <value><![CDATA[/system/modules/org.opencms.apollo/templates/apollo-page.jsp]]></value>
+        </property>
+    </properties>
+    <relations/>
+    <accesscontrol>
+        <accessentry>
+            <uuidprincipal>GROUP.Users</uuidprincipal>
+            <flags>34</flags>
+            <permissionset>
+                <allowed>7</allowed>
+                <denied>0</denied>
+            </permissionset>
+        </accessentry>
+    </accesscontrol>
+</file>

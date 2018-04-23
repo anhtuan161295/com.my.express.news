@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+
+  <xsd:element name="ExpressNewsCommentItems" type="OpenCmsExpressNewsCommentItems"/>
+  <xsd:complexType name="OpenCmsExpressNewsCommentItems">
+    <xsd:sequence>
+      <xsd:element name="ExpressNewsCommentItem" type="OpenCmsExpressNewsCommentItem" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="OpenCmsExpressNewsCommentItem">
+    <xsd:sequence>
+      <xsd:element name="ImageLink" type="OpenCmsVarLink"/>
+      <xsd:element name="Link" type="OpenCmsVarLink"/>
+      <xsd:element name="UserLink" type="OpenCmsVarLink"/>
+      <xsd:element name="UserName" type="OpenCmsString"/>
+      <xsd:element name="Comment" type="OpenCmsString"/>
+      <xsd:element name="Date" type="OpenCmsString"/>
+      <xsd:element name="ReplyLink" type="OpenCmsVarLink"/>
+    </xsd:sequence>
+    <xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+  </xsd:complexType>
+
+</xsd:schema>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsSignUpForms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/sign-up-form.xsd">
+  <ExpressNewsSignUpForm language="en">
+    <Title><![CDATA[Newsletter]]></Title>
+    <Description><![CDATA[Sign up to receive our free newsletters!]]></Description>
+    <EmailPlaceHolder><![CDATA[Email Address]]></EmailPlaceHolder>
+    <SubmitButtonLabel><![CDATA[Submit]]></SubmitButtonLabel>
+  </ExpressNewsSignUpForm>
+</ExpressNewsSignUpForms>

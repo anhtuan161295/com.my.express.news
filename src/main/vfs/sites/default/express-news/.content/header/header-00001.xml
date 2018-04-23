@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsHeaders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/header.xsd">
+  <ExpressNewsHeader language="en">
+    <MenuItems>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/]]></target>
+        <uuid>6833c1b4-3307-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </MenuItems>
+    <Message><![CDATA[Call us : 123234]]></Message>
+    <HomePageLink/>
+    <LogoImageLink>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/logo.jpg]]></target>
+        <uuid>06a5c773-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </LogoImageLink>
+    <MarqueeTitle><![CDATA[Breaking News]]></MarqueeTitle>
+    <MarqueeItems>
+      <Title><![CDATA[Lorem ipsum 11111111111]]></Title>
+      <Link/>
+    </MarqueeItems>
+    <MarqueeItems>
+      <Title><![CDATA[Lorem ipsum]]></Title>
+      <Link/>
+    </MarqueeItems>
+    <SearchPageLink>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/search/]]></target>
+        <uuid>a369d48a-43ba-11e8-ad03-e5c82a707ed0</uuid>
+      </link>
+    </SearchPageLink>
+  </ExpressNewsHeader>
+</ExpressNewsHeaders>

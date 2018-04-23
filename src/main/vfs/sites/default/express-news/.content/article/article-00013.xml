@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/article.xsd">
+  <ExpressNewsArticle language="en">
+    <Title><![CDATA[Cấm các ngân hàng giao dịch tiền ảo]]></Title>
+    <ShortDescription><![CDATA[Ngân hàng Nhà nước cho rằng giao dịch tiền ảo có thể phát sinh những rủi ro về rửa tiền, tài trợ khủng bố, gian lận, trốn thuế.]]></ShortDescription>
+    <Thumbnail>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/f1.jpg]]></target>
+        <uuid>03215b70-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Thumbnail>
+    <VideoLink/>
+    <Content><![CDATA[<div id="box_morelink_detail" class="wrap_xemthem">&nbsp;
+<h2 class="description">rủi ro về rửa tiền, tài trợ khủng bố, gian lận, trốn thuế.</h2>
+<p class="related_news"><a title="Nhà đầu tư vào tiền ảo iFan kêu bị lừa 15.000 tỷ đồng" href="https://kinhdoanh.vnexpress.net/tin-tuc/doanh-nghiep/nha-dau-tu-vao-tien-ao-ifan-keu-bi-lua-15-000-ty-dong-3734520.html?ctr=related_news_click">Nhà đầu tư vào tiền ảo iFan kêu bị lừa 15.000 tỷ đồng</a></p>
+<article class="content_detail fck_detail width_common block_ads_connect">
+<p class="Normal">Thống đốc Ngân hàng Nhà nước vừa ban hành Chỉ thị số 02 về các biện pháp tăng cường kiểm soát các giao dịch, hoạt động liên quan tới tiền ảo.</p>
+<p class="Normal">Theo đó, Thống đốc yêu cầu các tổ chức tín dụng, tổ chức cung ứng dịch vụ trung gian thanh toán không được cung ứng các dịch vụ thanh toán, giao dịch thẻ, cấp tín dụng qua thẻ, hỗ trợ xử lý, thanh toán, chuyển tiền, bù trừ và quyết toán, chuyển đổi tiền tệ, chuyển tiền qua biên giới liên quan tới giao dịch tiền ảo cho khách hàng. Do điều này có thể phát sinh những rủi ro về rửa tiền, tài trợ khủng bố, gian lận, trốn thuế.</p>
+<table class="tplCaption" border="0" cellspacing="0" cellpadding="3" align="center">
+<tbody>
+<tr>
+<td><img src="https://i-kinhdoanh.vnecdn.net/2018/04/17/Ifan-3465-1523329481-1365-1523934266.jpg" alt="Hàng chục người đến trước văn phòng Modern Tech trên phố Nguyễn Huệ tố cáo công ty này lừa đảo bằng hình thức huy động vốn đầu tư vào tiền ảo Ifan, Pincoin ngày 8/4.&nbsp;" data-natural-width="500" data-pagespeed-url-hash="595127162" data-width="500" data-pwidth="500" /></td>
+</tr>
+<tr>
+<td>
+<p class="Image">Hàng chục người đến trước văn phòng Modern Tech trên phố Nguyễn Huệ tố cáo công ty này lừa đảo bằng hình thức huy động vốn đầu tư vào tiền ảo Ifan, Pincoin ngày 8/4.&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Mặt khác, các ngân hàng, tổ chức cung ứng dịch vụ trung gian thanh toán tăng cường rà soát, báo cáo kịp thời các giao dịch đáng ngờ có liên quan tới tiền ảo; rà soát các tổ chức, cá nhân có giao dịch mua bán, trao đổi tiền ảo. Các tổ chức có hoạt động xử lý giao dịch mua bán, trao đổi tiền ảo và có biện pháp xử lý đảm bảo tuân thủ quy định pháp luật về phòng, chống rửa tiền, chống tài trợ khủng bố và quản lý ngoại hối.</p>
+<p class="Normal">Các đơn vị tại trụ sở chính Ngân hàng Nhà nước chủ động tham mưu, đề xuất và tổ chức thực hiện các giải pháp tăng cường kiểm soát, xử lý các giao dịch, hoạt động liên quan tới tiền ảo theo các nội dung liên quan tại Chỉ thị này.&nbsp;Đồng thời, phối hợp với các bộ, ngành liên quan xây dựng khung pháp lý, xử lý đối với các loại tiền ảo, tài sản ảo và phòng ngừa, ngăn chặn các hoạt động lợi dụng hệ thống ngân hàng, hệ thống thanh toán để mua bán, trao đổi, sử dụng tiền ảo làm phương tiện thanh toán trái pháp luật.</p>
+<p class="Normal">Cơ quan Thanh tra, giám sát ngân hàng làm đầu mối phối hợp Vụ thanh toán và các đơn vị liên quan thuộc Ngân hàng Nhà nước tham mưu, đề xuất với Thống đốc việc thanh tra về rủi ro tiền ảo đối với các tổ chức tín dụng, tổ chức cung ứng dịch vụ trung gian thanh toán trường hợp xét thấy cần thiết, có nguy cơ rủi ro hoặc có dấu hiệu vi phạm pháp luật.</p>
+<p class="Normal">Ngân hàng Nhà nước chi nhánh các tỉnh, thành phố chủ động thông tin, tuyên truyền, phổ biến chủ trương và chỉ đạo của Chính phủ và Ngân hàng Nhà nước, các quy định của pháp luật có liên quan đối với tiền ảo tới các ngân hàng thương mại trên địa bàn biết để thực hiện.</p>
+<p class="Normal">Thống đốc yêu cầu các ngân hàng, tổ chức cung ứng dịch vụ trung gian thanh toán xây dựng kế hoạch và tổ chức thực hiện các nhiệm vụ, biện pháp cụ thể tại Chỉ thị này và báo cáo kết quả thực hiện về Ngân hàng Nhà nước (Vụ Thanh toán) trước 30/6/2018.</p>
+<p class="Normal">Trước đó, ngày 8/4, hàng chục nhà đầu tư đã kéo đến trụ sở Công ty cổ phần Modern Tech tại Nguyễn Huệ, quận 1, TP HCM giăng băng rôn tố cáo công ty này đã chiếm đoạt hơn 15.000 tỷ đồng bằng hình thức kêu gọi rót vốn mua đồng tiền ảo iFan, Pincoin (được trả lãi). Số tiền 15.000 tỷ đồng được giải thích là quy đổi từ 650 triệu USD ICO (huy động vốn) thành công từ iFan, Pincoin và một số đồng tiền ảo khác do Modern Tech đại diện.</p>
+<p class="Normal"><strong>Thanh Lê</strong></p>
+</article>
+<div>&nbsp;</div>
+<div id="box_recommendation" class="width_common box_category box_cothebanquantam box_cothebanquantam_slide">&nbsp;</div>
+</div>]]></Content>
+    <Categories>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/]]></target>
+        <uuid>6833c1b4-3307-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Categories>
+    <Date><![CDATA[On March 14]]></Date>
+    <Comment><![CDATA[34]]></Comment>
+    <View><![CDATA[43]]></View>
+    <Like><![CDATA[43]]></Like>
+  </ExpressNewsArticle>
+</ExpressNewsArticles>

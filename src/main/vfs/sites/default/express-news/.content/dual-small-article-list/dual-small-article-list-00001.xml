@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsDualSmallArticleLists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/dual-small-article-list.xsd">
+  <ExpressNewsDualSmallArticleList language="en">
+    <LeftArticleList>
+      <Title><![CDATA[Business]]></Title>
+      <ResourcePath>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/express-news/]]></target>
+          <uuid>6833c1b4-3307-11e8-94f3-e5c82a707ed0</uuid>
+        </link>
+      </ResourcePath>
+      <TypesToCollect>express-news-article:cca82ffc-3f09-11e8-90fa-e5c82a707ed0</TypesToCollect>
+      <ResourceLimit><![CDATA[3]]></ResourceLimit>
+    </LeftArticleList>
+    <RightArticleList>
+      <Title><![CDATA[Technology]]></Title>
+      <ResourcePath>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/sites/default/express-news/]]></target>
+          <uuid>6833c1b4-3307-11e8-94f3-e5c82a707ed0</uuid>
+        </link>
+      </ResourcePath>
+      <TypesToCollect>express-news-article:cca82ffc-3f09-11e8-90fa-e5c82a707ed0</TypesToCollect>
+      <ResourceLimit><![CDATA[3]]></ResourceLimit>
+    </RightArticleList>
+  </ExpressNewsDualSmallArticleList>
+</ExpressNewsDualSmallArticleLists>

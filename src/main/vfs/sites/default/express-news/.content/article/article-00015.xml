@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/article.xsd">
+  <ExpressNewsArticle language="en">
+    <Title><![CDATA[Đức phá âm mưu đâm dao cuộc thi chạy ở Berlin]]></Title>
+    <ShortDescription><![CDATA[Cảnh sát Đức hôm nay ngăn chặn một kẻ có ý định tấn công bằng dao nhằm vào cuộc thi bán marathon có 36.000 người tham gia ở Berlin.]]></ShortDescription>
+    <Thumbnail>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/l1.jpg]]></target>
+        <uuid>05b83317-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Thumbnail>
+    <VideoLink/>
+    <Content><![CDATA[<div id="box_morelink_detail" class="wrap_xemthem">&nbsp;
+<h2 class="description">Cảnh sát Đức hôm nay ngăn chặn một kẻ có ý định tấn công bằng dao nhằm vào cuộc thi bán marathon có 36.000 người tham gia ở Berlin.</h2>
+<p class="related_news"><a title="Hai người thiệt mạng khi xe tải lao vào đám đông ở Đức" href="https://vnexpress.net/tin-tuc/the-gioi/hai-nguoi-thiet-mang-khi-xe-tai-lao-vao-dam-dong-o-duc-3733639.html#ctr=related_news_click">Hai người thiệt mạng khi xe tải lao vào đám đông ở Đức</a></p>
+<article class="content_detail fck_detail width_common block_ads_connect">
+<table class="tplCaption" border="0" cellspacing="0" cellpadding="3" align="center">
+<tbody>
+<tr>
+<td><img src="https://i-vnexpress.vnecdn.net/2018/04/08/2018-Berlin-Half-Marathon-3783-1523202011.jpg" alt="Những người tham gia cuộc thi chạy bán marathon ở Berlin, Đức, ngày 8/4. Ảnh: Anadolu Agency." data-natural-width="500" data-width="500" data-pwidth="500" /></td>
+</tr>
+<tr>
+<td>
+<p class="Image">Những người tham gia cuộc thi chạy bán marathon ở Berlin, Đức, ngày 8/4. Ảnh:&nbsp;<em>Anadolu Agency</em>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="Normal">Kẻ lên kế hoạch đâm dao cuộc thi chạy bán marathon ở thủ đô nước Đức nằm trong 4 người mà cảnh sát bắt giữ hôm nay, báo&nbsp;<em>Die Welt&nbsp;</em>đưa tin. Trước đó, các sĩ quan đã tìm thấy hai con dao nhọn trong một cuộc đột kích vào căn hộ của người này ở phía tây thành phố.</p>
+<p class="Normal">Theo nhiều nguồn tin, nghi phạm dường như muốn trả thù cho cái chết của Anis Amri, kẻ khiến 12 người thiệt mạng và hàng chục người bị thương khi gây ra vụ lao xe tải vào khu chợ Giáng sinh tại Berlin hồi tháng 12/2016. Các nghi phạm còn lại cũng có mối liên hệ với Amri.</p>
+<p class="Normal">Những người tổ chức sự kiện cho biết cuộc thi chạy bán marathon năm nay thu hút tới 36.000 người tham gia. Một nhân viên điều tra cấp cao cho hay cơ quan chức năng đang "đánh giá tình hình".</p>
+<p class="Normal">Hôm qua, một vụ lao xe xảy ra ở thành phố phía tây bắc Muenster đã khiến chính quyền Đức phải nâng cao cảnh giác. Chiếc xe đâm vào đám đông với tốc độ lớn khiến hai người thiệt mạng và 20 người bị thương. Nhà chức trách cho hay kẻ tấn công là một công dân Đức, 48 tuổi, có vấn đề về tâm thần.</p>
+<p class="Normal"><strong>Vũ Hoàng</strong></p>
+</article>
+<div class="width_common box_category">&nbsp;</div>
+<div id="box_morelink_detail" class="wrap_xemthem">&nbsp;</div>
+</div>]]></Content>
+    <Date><![CDATA[On March 14]]></Date>
+    <Comment><![CDATA[34]]></Comment>
+    <View><![CDATA[43]]></View>
+    <Like><![CDATA[43]]></Like>
+  </ExpressNewsArticle>
+</ExpressNewsArticles>

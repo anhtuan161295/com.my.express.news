@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsAccordationMenus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/accordation-menu.xsd">
+  <ExpressNewsAccordationMenu language="en">
+    <AccordationPostItems>
+      <Title><![CDATA[Popular Posts]]></Title>
+      <TypesToCollect>express-news-article:fe3273bd-372f-11e8-9b90-e5c82a707ed0</TypesToCollect>
+      <ResourceLimit><![CDATA[5]]></ResourceLimit>
+    </AccordationPostItems>
+    <AccordationPostItems>
+      <Title><![CDATA[Recent Posts]]></Title>
+      <TypesToCollect>express-news-article:fe3273bd-372f-11e8-9b90-e5c82a707ed0</TypesToCollect>
+      <ResourceLimit><![CDATA[5]]></ResourceLimit>
+    </AccordationPostItems>
+    <AccordationCommentItems>
+      <Title><![CDATA[Comments]]></Title>
+      <ReplyButtonLabel><![CDATA[Reply]]></ReplyButtonLabel>
+    </AccordationCommentItems>
+  </ExpressNewsAccordationMenu>
+</ExpressNewsAccordationMenus>

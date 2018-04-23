@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/article.xsd">
+  <ExpressNewsArticle language="en">
+    <Title><![CDATA[Ông Lê Trương Hải Hiếu bị kỷ luật]]></Title>
+    <ShortDescription><![CDATA[Chủ tịch UBND quận 12 (TP HCM) có con với một phụ nữ nhưng không báo cáo tổ chức.]]></ShortDescription>
+    <Thumbnail>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/l4.jpg]]></target>
+        <uuid>065361b0-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Thumbnail>
+    <VideoLink/>
+    <Content><![CDATA[<h2 class="description">Chủ tịch UBND quận 12 (TP HCM) có con với một phụ nữ nhưng không báo cáo tổ chức.</h2>
+<p class="related_news"><a title="Ông Nguyễn Thiện Nhân: 'Điều chuyển ngay cán bộ có biểu hiện suy thoái'" href="https://vnexpress.net/tin-tuc/thoi-su/ong-nguyen-thien-nhan-dieu-chuyen-ngay-can-bo-co-bieu-hien-suy-thoai-3737850.html#ctr=related_news_click">Ông Nguyễn Thiện Nhân: 'Điều chuyển ngay cán bộ có biểu hiện suy thoái'</a></p>
+<article class="content_detail fck_detail width_common block_ads_connect">
+<p class="Normal">Tại hội nghị Thành ủy TP HCM ngày 17/4, Ban thường vụ Thành ủy báo cáo về kết quả xử lý kỷ luật đối với ông Lê Trương Hải Hiếu - Phó bí thư Quận ủy, Chủ tịch UBND quận 12.</p>
+<p class="Normal">Ông Hiếu bị cho là đã vi phạm lối sống Đảng viên, khi quan hệ tình cảm với một phụ nữ và có con chung, song chậm báo cáo với tổ chức.</p>
+<table class="tplCaption" border="0" cellspacing="0" cellpadding="3" align="center">
+<tbody>
+<tr>
+<td><img src="https://i-vnexpress.vnecdn.net/2018/04/17/le-truong-hai-hieu-5839-1523963306.jpg" alt="Chủ tịch quận 12 Lê Trương Hải Hiếu. Ảnh: Hữu Nguyên." data-natural-width="500" data-width="500" data-pwidth="500" /></td>
+</tr>
+<tr>
+<td>
+<p class="Image">Chủ tịch quận 12 Lê Trương Hải Hiếu. Ảnh:&nbsp;<em>Hữu Nguyên.</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="Normal">Hành vi của Chủ tịch quận 12 bị Ban thường vụ Quận ủy kỷ luật bằng hình thức khiển trách, sau khi đã xem xét tính chất và thái độ khắc phục, sửa chữa sai phạm của ông Hiếu.</p>
+<div>
+<div id="video_parent_198844" class="box_embed_video_parent embed_video_new" data-vid="198844" data-articleoriginal="3738093" data-ads="0" data-license="1" data-duration="60" data-brandsafe="0" data-type="0" data-play="0" data-frame="" data-initdom="1">
+<div class="box_img_video embed-container" data-vid="198844"><img src="https://iv.vnecdn.net/vnexpress/images/web/2018/04/17/ong-le-truong-hai-hieu-bi-ky-luat-khien-trach-1523966920_500x300.jpg" alt="Ông Lê Trương Hải Hiếu bị kỷ luật khiển trách" />
+<div class="icon_blockvideo">
+<div class="img_icon">&nbsp;</div>
+&nbsp;
+<div class="image_icon_center">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+<p class="Image">Video:&nbsp;<em>Thanh Huyền</em></p>
+<p class="Normal">Ông Lê Trương Hải Hiếu là con trai nguyên Bí thư Thành uỷ TP HCM Lê Thanh Hải. Ông được Ban thường vụ Thành uỷ TP HCM điều động làm Chủ tịch UBND quận 12 vào tháng 8/2015. Thời điểm đó, ông Hiếu là lãnh đạo quận trẻ nhất thành phố khi mới 34 tuổi.</p>
+<p class="Normal">Trước đó, ông Hiếu có 8 năm liên tiếp công tác tại quận 1, kinh qua các chức danh Bí thư Quận Đoàn quận 1, Bí thư kiêm Chủ tịch UBND phường Bến Thành, Phó chủ tịch rồi Phó bí thư thường trực quận 1.</p>
+<p class="Normal"><strong>Thiên Ngôn</strong></p>
+</article>
+<div class="width_common box_category">&nbsp;</div>
+<div id="box_morelink_detail" class="wrap_xemthem">&nbsp;</div>]]></Content>
+    <Date><![CDATA[On March 14]]></Date>
+    <Comment><![CDATA[34]]></Comment>
+    <View><![CDATA[43]]></View>
+    <Like><![CDATA[43]]></Like>
+  </ExpressNewsArticle>
+</ExpressNewsArticles>

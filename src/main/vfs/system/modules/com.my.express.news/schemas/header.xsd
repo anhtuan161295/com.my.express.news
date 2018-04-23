@@ -1,0 +1,46 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xsd:include schemaLocation="opencms://opencms-xmlcontent.xsd"/>
+	<xsd:include schemaLocation="opencms://system/modules/com.my.express.news/schemas/nested/menu-item.xsd"/>
+
+	<xsd:element name="ExpressNewsHeaders" type="OpenCmsExpressNewsHeaders"/>
+	<xsd:complexType name="OpenCmsExpressNewsHeaders">
+		<xsd:sequence>
+			<xsd:element name="ExpressNewsHeader" type="OpenCmsExpressNewsHeader" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="OpenCmsExpressNewsHeader">
+		<xsd:sequence>
+			<xsd:element name="MenuItems" type="OpenCmsVarLink" minOccurs="0" maxOccurs="5"/>
+			<xsd:element name="Message" type="OpenCmsString"/>
+			<xsd:element name="HomePageLink" type="OpenCmsVarLink"/>
+			<xsd:element name="LogoImageLink" type="OpenCmsVarLink"/>
+			<xsd:element name="MarqueeTitle" type="OpenCmsString"/>
+			<xsd:element name="MarqueeItems" type="OpenCmsExpressNewsMenuItem" minOccurs="0" maxOccurs="5"/>
+			<xsd:element name="SearchPageLink" type="OpenCmsVarLink"/>
+		</xsd:sequence>
+		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
+	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<mappings>
+				<!--<mapping element="Title" mapto="property:Title" />-->
+				<!--<mapping element="Title" mapto="urlName" />-->
+			</mappings>
+			<defaults>
+				<!--<default element="Title" value="Add a new title here" />-->
+				<!--<default element="Text" value="Add your text" />-->
+			</defaults>
+			<layouts>
+				<!--<layout element="Text" widget="HtmlWidget" configuration="downloadgallery" />-->
+				<!--<layout element="Image" widget="ImageGalleryWidget" configuration="{useformat:true}" />-->
+			</layouts>
+			<validationrules/>
+			<relations/>
+			<searchsettings containerPageOnly="false"/>
+		</xsd:appinfo>
+	</xsd:annotation>
+
+</xsd:schema>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/article.xsd">
+  <ExpressNewsArticle language="en">
+    <Title><![CDATA[Berlin sơ tán dân để xử lý bom từ Thế chiến II]]></Title>
+    <ShortDescription><![CDATA[Khu vực trung tâm thủ đô Berlin, Đức, hôm nay phải sơ tán để nhà chức trách vô hiệu hóa một quả bom từ thời Thế chiến II.]]></ShortDescription>
+    <Thumbnail>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/f1.jpg]]></target>
+        <uuid>03215b70-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Thumbnail>
+    <VideoLink/>
+    <Content><![CDATA[<div id="box_recommendation" class="width_common box_category box_cothebanquantam box_cothebanquantam_slide">&nbsp;
+<h2 class="description">Khu vực trung tâm thủ đô Berlin, Đức, hôm nay phải sơ tán để nhà chức trách vô hiệu hóa một quả bom từ thời Thế chiến II.</h2>
+<p class="related_news"><a title="Nga nói tìm thấy vũ khí hóa học Đức và lựu đạn Anh ở Syria" href="https://vnexpress.net/tin-tuc/the-gioi/nga-noi-tim-thay-vu-khi-hoa-hoc-duc-va-luu-dan-anh-o-syria-3739213.html#ctr=related_news_click">Nga nói tìm thấy vũ khí hóa học Đức và lựu đạn Anh ở Syria</a>&nbsp; / &nbsp;<a title="Đức phá âm mưu đâm dao cuộc thi chạy ở Berlin" href="https://vnexpress.net/tin-tuc/the-gioi/duc-pha-am-muu-dam-dao-cuoc-thi-chay-o-berlin-3733849.html#ctr=related_news_click">Đức phá âm mưu đâm dao cuộc thi chạy ở Berlin</a></p>
+<article class="content_detail fck_detail width_common block_ads_connect">
+<table class="tplCaption" border="0" cellspacing="0" cellpadding="3" align="center">
+<tbody>
+<tr>
+<td><img src="https://i-vnexpress.vnecdn.net/2018/04/20/857995b5a187964167a327402cd659-6725-4593-1524196942.jpg" alt="Một quả bom thời Thế chiến II nặng 1,8 tấn được vô hiệu hóa thành công ở Frankfurt, Đức, hồi tháng 9 năm ngoái. Ảnh: DPA." data-natural-width="500" data-width="500" data-pwidth="500" /></td>
+</tr>
+<tr>
+<td>
+<p class="Image">Một quả bom thời Thế chiến II nặng 1,8 tấn được vô hiệu hóa thành công ở Frankfurt, Đức, hồi tháng 9 năm ngoái. Ảnh:&nbsp;<em>DPA</em>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="Normal">Xe lửa, xe điện, xe buýt, thậm chí một số chuyến bay tại sân bay Tegel, Berlin, sẽ bị hoãn trong thời gian đội phá bom mìn tiến hành vô hiệu hóa một quả bom 500 kg của Anh còn sót lại từ Chiến tranh Thế giới II,&nbsp;<em>AFP</em>&nbsp;đưa tin.</p>
+<p class="Normal">Nhà chức trách đã cho phong tỏa trong bán kính 800 mét quanh nơi có bom, cách nhà ga trung tâm không xa về phía bắc, nơi mỗi ngày đón khoảng 300.000 hành khách qua lại.</p>
+<p class="Normal">Khu vực cấm bao gồm nhà ga, một bệnh viện quân đội, Bộ Kinh tế, một phòng trưng bày nghệ thuật, một bảo tàng cùng một phần trụ sở mới của Cơ quan Tình báo Liên bang Đức (BND).</p>
+<p class="Normal">Hàng nghìn người sống hoặc làm việc trong khu vực sẽ phải tạm lánh đi nơi khác bắt đầu từ 9h sáng và chỉ có thể quay về khi công tác vô hiệu hóa quả bom đã hoàn tất.</p>
+<p class="Normal">Hơn 70 năm sau khi Thế chiến II kết thúc, những quả bom chưa phát nổ vẫn thường xuyên được tìm thấy ở Đức. Chuyên gia cho rằng hiện còn khoảng 3.000 quả bom bị chôn vùi dưới lòng đất ở thủ đô nước Đức, nơi có dân số tới ba triệu người.</p>
+<p class="Normal"><strong>Vũ Hoàng</strong></p>
+</article>
+<div class="width_common box_category">&nbsp;</div>
+<div id="box_morelink_detail" class="wrap_xemthem"><span class="txt_xemthem">Tin</span></div>
+</div>]]></Content>
+    <Categories>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/]]></target>
+        <uuid>6833c1b4-3307-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Categories>
+    <Date><![CDATA[On March 14]]></Date>
+    <Comment><![CDATA[34]]></Comment>
+    <View><![CDATA[43]]></View>
+    <Like><![CDATA[43]]></Like>
+  </ExpressNewsArticle>
+</ExpressNewsArticles>

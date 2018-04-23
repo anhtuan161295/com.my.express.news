@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/article.xsd">
+  <ExpressNewsArticle language="en">
+    <Title><![CDATA[Giá vàng trong nước giảm theo thế giới]]></Title>
+    <ShortDescription><![CDATA[Vàng miếng mất giá vài chục nghìn đồng mỗi lượng trong sáng nay, khi thế giới đi xuống.]]></ShortDescription>
+    <Thumbnail>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/l2.jpg]]></target>
+        <uuid>05ec145a-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Thumbnail>
+    <VideoLink/>
+    <Content><![CDATA[<article class="content_detail fck_detail width_common block_ads_connect">
+<h2 class="description">Vàng miếng mất giá vài chục nghìn đồng mỗi lượng trong sáng nay, khi thế giới đi xuống.</h2>
+<article class="content_detail fck_detail width_common block_ads_connect">
+<p class="Normal">Đến 9h, Tập đoàn DOJI niêm yết giá mua vào mỗi lượng vàng miếng tại 36,88 triệu đồng, giảm 50.000 đồng so với giá đóng cửa hôm qua. Chiều bán giảm 50.000 đồng, xuống 36,98 triệu đồng. Biên độ mua bán dao động 100.000 đồng mỗi lượng.</p>
+<p class="Normal">Trong khi đó, Công ty Vàng bạc Đá quý Phú Nhuận (PNJ) mua vào tại 36,83 triệu đồng và bán ra tại 37,01 triệu đồng. Biên độ mua bán duy trì mức 180.000 đồng một lượng.</p>
+<table class="tplCaption" border="0" cellspacing="0" cellpadding="3" align="center">
+<tbody>
+<tr>
+<td><img src="https://i-kinhdoanh.vnecdn.net/2018/04/20/Ba-n-sao-doji-gia-vang-2890-14-7338-7330-1524191257.jpg" alt="Giao dịch vàng miếng tại DOJI. Ảnh: PV." data-natural-width="500" data-width="500" data-pwidth="500" /></td>
+</tr>
+<tr>
+<td>
+<p class="Image">Giao dịch vàng miếng tại DOJI. Ảnh:&nbsp;<em>PV</em>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="Normal">Giá vàng thế giới sáng nay tại giờ giao dịch châu Á giảm 3 USD, xuống 1.342 USD. Hôm qua, mỗi ounce chốt phiên Mỹ cũng đã mất 4 USD. Mỗi ounce hiện tương đương 36,93 triệu đồng một lượng (chưa thuế, phí, gia công). Chênh lệch giữa thị trường trong nước và quốc tế hiện nay gần như không còn.</p>
+<p class="Normal">Nguyên nhân giá vàng quay đầu giảm là đà tăng của đồng đôla Mỹ, đồng bạc xanh tăng hơn 0,3% lên mức 89,93 điểm. Vàng vốn được định giá bởi đồng USD, do đó khi giá đồng tiền này tăng sẽ kìm hãm và tác động tiêu cực đến vàng.</p>
+<p class="Normal">DOJI nhận định, phiên giao dịch ngày 19/4, thị trường trong nước tiếp tục chứng kiến đà bật tăng đáng kể của giá vàng. Nhu cầu đầu tư vì thế cũng tăng mạnh ở cả hai chiều mua và bán. Ghi nhận đến cuối phiên hôm qua, lượng khách theo chiều bán vàng ra chiếm khoảng 60% trên tổng giao dịch tại DOJI.</p>
+<p class="Normal">Trong khi đó, tại Công ty PNJ, khối lượng giao dịch vàng miếng trong nước&nbsp; hôm qua nhìn chung khá ổn định và ít có sự biến động. Đa số vẫn chỉ là các giao dịch nhỏ lẻ.</p>
+<p class="Normal">Trên thị trường ngoại hối, tỷ giá trung tâm do Ngân hàng Nhà nước công bố sáng nay là 22.498 đồng một USD, giảm 5 đồng so với hôm qua. Giá mua bán đôla Mỹ tại Vietcombank hiện là 22.740 - 22.810 đồng, cũng mất 5 đồng so với ngày hôm qua.</p>
+<p class="Normal"><strong>Lệ Chi</strong></p>
+</article>
+<div>&nbsp;</div>
+<div id="box_recommendation" class="width_common box_category box_cothebanquantam box_cothebanquantam_slide">&nbsp;</div>
+</article>]]></Content>
+    <Date><![CDATA[On March 14]]></Date>
+    <Comment><![CDATA[34]]></Comment>
+    <View><![CDATA[43]]></View>
+    <Like><![CDATA[43]]></Like>
+  </ExpressNewsArticle>
+</ExpressNewsArticles>
