@@ -17,7 +17,7 @@
 			<xsd:element name="HomePageLink" type="OpenCmsVarLink"/>
 			<xsd:element name="LogoImageLink" type="OpenCmsVarLink"/>
 			<xsd:element name="MarqueeTitle" type="OpenCmsString"/>
-			<xsd:element name="MarqueeItems" type="OpenCmsExpressNewsMenuItem" minOccurs="0" maxOccurs="5"/>
+			<xsd:element name="MarqueeItems" type="OpenCmsVarLink" minOccurs="0" maxOccurs="5"/>
 			<xsd:element name="SearchPageLink" type="OpenCmsVarLink"/>
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>

@@ -8,6 +8,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="ex" tagdir="/WEB-INF/tags/express-news" %>
+
 <cms:formatter var="content">
 
 	<c:if test="${cms.container.type == 'express-news-right-sidebar'}">
@@ -29,6 +31,8 @@
 						</form>
 					</div>
 
+					<c:set var="sendMailPath"><ex:link link="/system/modules/com.my.express.news/formatters/sendEmail.jsp"/></c:set>
+
 					<script>
 						$(document).ready(function () {
 							$('form#sendMail').submit(function (e) {
@@ -37,7 +41,7 @@
 							    var email = $('#email').val();
 
 							   	$.ajax({
-                                    url: '<cms:link>/system/modules/com.my.express.news/formatters/sendEmail.jsp</cms:link>',
+                                    url: '${sendMailPath}',
                                     method: 'POST',
 									data: {
                                         email: email

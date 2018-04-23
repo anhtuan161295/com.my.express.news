@@ -84,9 +84,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 
-<%--<c:if test="${cms.isEditMode}">--%>
-    <%--<div style="height: 80px"></div>--%>
-<%--</c:if>--%>
+<c:if test="${cms.isEditMode}">
+    <div style="height: 80px"></div>
+</c:if>
 
 <!-- Header -->
 <cms:container name="headercontainer" type="express-news-header" width="450">

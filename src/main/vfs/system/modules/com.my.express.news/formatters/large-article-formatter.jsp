@@ -18,36 +18,30 @@
 
 					<div class="article">
 						<div class="article-left">
-							<%--<a href="<cms:link>${content.filename}</cms:link>">--%>
-								<%--<img src="<cms:link>${content.value.Thumbnail}</cms:link>">--%>
-							<%--</a>--%>
-							<a href="<cms:link>${content.filename}</cms:link>">
+							<ex:a link="${content.filename}">
 								<img src="<cms:link>${content.value.Thumbnail}</cms:link>">
-							</a>
+							</ex:a>
 						</div>
 						<div class="article-right">
 							<div class="article-title">
 								<p>${content.value.Date}
-									<a class="span_link" href="<cms:link>${content.filename}</cms:link>">
+									<ex:a link="${content.filename}" cssclass="span_link">
 										<span class="glyphicon glyphicon-comment"></span>${content.value.Comment}
-									</a>
-									<a class="span_link" href="<cms:link>${content.filename}</cms:link>">
+									</ex:a>
+									<ex:a link="${content.filename}" cssclass="span_link">
 										<span class="glyphicon glyphicon-eye-open"></span>${content.value.View}
-									</a>
-									<a class="span_link" href="<cms:link>${content.filename}</cms:link>">
+									</ex:a>
+									<ex:a link="${content.filename}" cssclass="span_link">
 										<span class="glyphicon glyphicon-thumbs-up"></span>${content.value.Like}
-									</a></p>
-								<%--<a class="title" href="<cms:link>${content.filename}</cms:link>"> ${content.value.Title}</a>--%>
-								<ex:link link="${content.filename}" text="${content.value.Title}" cssclass="title"/>
+									</ex:a>
+								</p>
+								<ex:a link="${content.filename}" text="${content.value.Title}" cssclass="title"/>
 							</div>
 							<div class="article-text">
 								<p>${content.value.ShortDescription}</p>
-								<%--<a href="<cms:link>${content.filename}</cms:link>">--%>
-									<%--<img src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/images/more.png)</cms:link>" alt="" />--%>
-								<%--</a>--%>
-								<ex:link link="${content.filename}">
+								<ex:a link="${content.filename}">
 									<img src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/images/more.png)</cms:link>" alt="" />
-								</ex:link>
+								</ex:a>
 								<div class="clearfix"></div>
 							</div>
 						</div>

@@ -3,6 +3,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="ex" tagdir="/WEB-INF/tags/express-news" %>
+
 <cms:formatter var="content">
 
 	<c:if test="${cms.container.type == 'express-news-content'}">
@@ -21,13 +23,17 @@
 					<c:if test="${settings['isFirst'] eq 'true'}">
 						<div class="c-sports-main">
 							<div class="c-image">
-								<a href="<cms:link>${content.filename}</cms:link>"><img src="<cms:link>${content.value.Thumbnail}</cms:link>" alt="" /></a>
+								<ex:a link="${content.filename}">
+									<img src="<cms:link>${content.value.Thumbnail}</cms:link>" alt=""/>
+								</ex:a>
 							</div>
 							<div class="c-text">
 								<h6>${content.value.Title}</h6>
-								<a class="power" href="<cms:link>${content.filename}</cms:link>">${content.value.ShortDescription}</a>
+								<ex:a link="${content.filename}" cssclass="power">${content.value.ShortDescription}</ex:a>
 								<p class="date">${content.value.Date}</p>
-								<a class="reu" href="<cms:link>${content.filename}</cms:link>"><img src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/images/more.png)</cms:link>" alt="" /></a>
+								<ex:a link="${content.filename}" cssclass="reu">
+									<img src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/images/more.png)</cms:link>" alt="" />
+								</ex:a>
 								<div class="clearfix"></div>
 							</div>
 							<div class="clearfix"></div>
@@ -37,13 +43,17 @@
 					<c:if test="${empty settings['isFirst']}">
 						<div class="s-grid-small">
 							<div class="sc-image">
-								<a href="<cms:link>${content.filename}</cms:link>"><img src="<cms:link>${content.value.Thumbnail}</cms:link>" alt="" /></a>
+								<ex:a link="${content.filename}">
+									<img src="<cms:link>${content.value.Thumbnail}</cms:link>" alt=""/>
+								</ex:a>
 							</div>
 							<div class="sc-text">
 								<h6>${content.value.Title}</h6>
-								<a class="power" href="<cms:link>${content.filename}</cms:link>">${content.value.ShortDescription}</a>
+								<ex:a link="${content.filename}" cssclass="power">${content.value.ShortDescription}</ex:a>
 								<p class="date">${content.value.Date}</p>
-								<a class="reu" href="<cms:link>${content.filename}</cms:link>"><img src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/images/more.png)</cms:link>" alt="" /></a>
+								<ex:a link="${content.filename}" cssclass="reu">
+									<img src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/images/more.png)</cms:link>" alt="" />
+								</ex:a>
 								<div class="clearfix"></div>
 							</div>
 							<div class="clearfix"></div>

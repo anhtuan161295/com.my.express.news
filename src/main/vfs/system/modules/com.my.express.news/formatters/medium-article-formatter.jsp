@@ -3,6 +3,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="ex" tagdir="/WEB-INF/tags/express-news" %>
+
 <cms:formatter var="content">
 
 	<c:if test="${cms.container.type == 'express-news-content'}">
@@ -15,8 +17,12 @@
 			<c:otherwise>
 				<div>
 
-					<a href="<cms:link>${content.filename}</cms:link>"><img src="<cms:link>${content.value.Thumbnail}</cms:link>" alt="" /></a>
-					<a class="title" href="<cms:link>${content.filename}</cms:link>">${content.value.ShortDescription}</a>
+					<ex:a link="${content.filename}">
+						<img src="<cms:link>${content.value.Thumbnail}</cms:link>">
+					</ex:a>
+					<ex:a link="${content.filename}" cssclass="title">
+						${content.value.ShortDescription}
+					</ex:a>
 
 				</div>
 			</c:otherwise>

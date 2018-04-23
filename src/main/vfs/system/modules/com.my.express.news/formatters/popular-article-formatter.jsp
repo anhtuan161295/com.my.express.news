@@ -3,6 +3,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="ex" tagdir="/WEB-INF/tags/express-news" %>
+
 <cms:formatter var="content">
 
 	<c:if test="${cms.container.type == 'express-news-right-sidebar'}">
@@ -17,15 +19,29 @@
 
 					<div class="popular-grid">
 						<c:if test="${content.value.Thumbnail ne '' and content.value.VideoLink eq ''}">
-							<a href="<cms:link>${content.filename}</cms:link>"><img src="<cms:link>${content.value.Thumbnail}</cms:link>" alt="" /></a>
+							<ex:a link="${content.filename}">
+								<img src="<cms:link>${content.value.Thumbnail}</cms:link>">
+							</ex:a>
 						</c:if>
 
 						<c:if test="${content.value.Thumbnail eq '' and content.value.VideoLink ne ''}">
 							<iframe width="100%" src="${content.value.VideoLink}" frameborder="0" allowfullscreen></iframe>
 						</c:if>
 
-						<a class="title" href="<cms:link>${content.filename}</cms:link>">${content.value.Title}</a>
-						<p>${content.value.Date} <a class="span_link" href="<cms:link>${content.filename}</cms:link>"><span class="glyphicon glyphicon-comment"></span>${content.value.Comment} </a><a class="span_link" href="<cms:link>${content.filename}</cms:link>"><span class="glyphicon glyphicon-eye-open"></span>${content.value.View} </a><a class="span_link" href="<cms:link>${content.filename}</cms:link>"><span class="glyphicon glyphicon-thumbs-up"></span>${content.value.Like}</a></p>
+						<ex:a link="${content.filename}" cssclass="title">
+							${content.value.Title}
+						</ex:a>
+						<p>${content.value.Date}
+							<ex:a link="${content.filename}" cssclass="span_link">
+								<span class="glyphicon glyphicon-comment"></span>${content.value.Comment}
+							</ex:a>
+							<ex:a link="${content.filename}" cssclass="span_link">
+								<span class="glyphicon glyphicon-eye-open"></span>${content.value.View}
+							</ex:a>
+							<ex:a link="${content.filename}" cssclass="span_link">
+								<span class="glyphicon glyphicon-thumbs-up"></span>${content.value.Like}
+							</ex:a>
+						</p>
 					</div>
 
 				</div>

@@ -3,17 +3,7 @@
 <ExpressNewsTags xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/tag.xsd">
   <ExpressNewsTag language="en">
     <Title><![CDATA[Tags]]></Title>
-    <TagItems>
-      <Title><![CDATA[test]]></Title>
-      <Link/>
-    </TagItems>
-    <TagItems>
-      <Title><![CDATA[lorem]]></Title>
-      <Link/>
-    </TagItems>
-    <TagItems>
-      <Title><![CDATA[ipsum]]></Title>
-      <Link/>
-    </TagItems>
+    <SearchPath/>
+    <ResourceType><![CDATA[express-news-article]]></ResourceType>
   </ExpressNewsTag>
 </ExpressNewsTags>

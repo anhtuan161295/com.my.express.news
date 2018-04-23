@@ -3,6 +3,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="ex" tagdir="/WEB-INF/tags/express-news" %>
+
 <cms:formatter var="content">
 
 	<c:if test="${cms.container.type == 'express-news-header'}">
@@ -21,7 +23,11 @@
 								<div class="top-menu">
 									<ul>
 										<c:forEach items="${content.valueList.MenuItems}" var="item">
-											<li><a href="<cms:link>${item}</cms:link>">${cms.vfs.property[item]['NavText']}</a></li>
+											<li>
+												<ex:a link="${item}">
+													${cms.vfs.property[item]['NavText']}
+												</ex:a>
+											</li>
 										</c:forEach>
 									</ul>
 								</div>
@@ -59,7 +65,9 @@
 
 													<c:if test="${!navElem.navigationLevel}">
 														<li class='level-${navElem.navTreeLevel} ${nav.isActive[navElem.resourceName]?"active":""}'>
-															<a href="<cms:link>${navElem.resourceName}</cms:link>">${navElem.navText}</a>
+															<ex:a link="${navElem.resourceName}">
+																${navElem.navText}
+															</ex:a>
 														</li>
 													</c:if>
 
@@ -73,7 +81,11 @@
 																	<div class="col-sm-6">
 																		<ul class="multi-column-dropdown">
 																			<c:forEach items="${subNav.items}" var="subNavElem">
-																				<li><a href="<cms:link>${subNavElem.resourceName}</cms:link>">${subNavElem.navText}</a></li>
+																				<li>
+																					<ex:a link="${subNavElem.resourceName}">
+																						${subNavElem.navText}
+																					</ex:a>
+																				</li>
 																				<li class="divider"></li>
 																			</c:forEach>
 																		</ul>
@@ -91,7 +103,8 @@
 												<!-- start search-->
 												<div class="search-box">
 													<div id="sb-search" class="sb-search">
-														<form action="<cms:link>${content.value.SearchPageLink}</cms:link>" method="get">
+														<c:set var="searchLink"><ex:link link="${content.value.SearchPageLink}"/></c:set>
+														<form action="${searchLink}" method="get">
 															<input class="sb-search-input" type="search" name="q" id="search">
 															<input class="sb-search-submit" type="submit" value="">
 															<span class="sb-icon-search"> </span>
@@ -123,7 +136,9 @@
 							<div class="marquee">
 								<c:forEach items="${content.valueList.MarqueeItems}" var="item" varStatus="status">
 									<div class="marquee${status.count}">
-										<a class="breaking" href="<cms:link>${item.value.Link}</cms:link>">${item.value.Title}</a>
+										<ex:a link="${item}" cssclass="breaking">
+											${cms.vfs.property[item]['Title']}
+										</ex:a>
 									</div>
 								</c:forEach>
 								<div class="clearfix"></div>

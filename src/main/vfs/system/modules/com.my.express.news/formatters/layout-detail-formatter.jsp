@@ -3,6 +3,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="ex" tagdir="/WEB-INF/tags/express-news" %>
+
 <cms:formatter var="content">
 
 	<c:if test="${cms.container.type == 'express-news-body'}">
@@ -19,11 +21,20 @@
 						<div class="wrap">
 							<ol class="breadcrumb">
 								<c:set var="rootSitemap" value="${cms.subSitePath}"/>
-								<c:set var="homePage" value="${rootSitemap}home"/>
-								<li><a href="<cms:link>${homePage}</cms:link>">${cms.vfs.property[homePage]['NavText']}</a></li>
+								<c:set var="homePage" value="${rootSitemap}"/>
+
+								<li>
+									<ex:a link="${homePage}">
+										${cms.vfs.property[homePage]['NavText']}
+									</ex:a>
+								</li>
 
 								<c:set var="currentPagePath" value="${requestScope['javax.servlet.forward.request_uri']}" />
-								<li class="active"><a href="<cms:link>${currentPagePath}</cms:link>"><cms:info property="opencms.title"/></a></li>
+								<li class="active">
+									<ex:a link="${currentPagePath}">
+										<cms:info property="opencms.title"/>
+									</ex:a>
+								</li>
 							</ol>
 
 							<div class="single-page">

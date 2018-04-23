@@ -18,12 +18,16 @@
     </LogoImageLink>
     <MarqueeTitle><![CDATA[Breaking News]]></MarqueeTitle>
     <MarqueeItems>
-      <Title><![CDATA[Lorem ipsum 11111111111]]></Title>
-      <Link/>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/.content/article/article-00015.xml]]></target>
+        <uuid>ab211d24-444b-11e8-a045-e5c82a707ed0</uuid>
+      </link>
     </MarqueeItems>
     <MarqueeItems>
-      <Title><![CDATA[Lorem ipsum]]></Title>
-      <Link/>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/.content/article/article-00013.xml]]></target>
+        <uuid>6bd09de3-444b-11e8-a045-e5c82a707ed0</uuid>
+      </link>
     </MarqueeItems>
     <SearchPageLink>
       <link internal="true" type="WEAK">

@@ -3,6 +3,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="ex" tagdir="/WEB-INF/tags/express-news" %>
+
 <cms:formatter var="content">
 
 	<c:if test="${cms.container.type == 'express-news-content-detail'}">
@@ -31,7 +33,11 @@
 							<c:if test="${not empty content.valueList.Categories}">
 								<ul class="categories">
 									<c:forEach var="item" items="${content.valueList.Categories}">
-										<li><a href="${item}">${cms.vfs.property[item]['NavText']}</a></li>
+										<li>
+											<ex:a link="${item}">
+												${cms.vfs.property[item]['NavText']}
+											</ex:a>
+										</li>
 									</c:forEach>
 								</ul>
 							</c:if>
