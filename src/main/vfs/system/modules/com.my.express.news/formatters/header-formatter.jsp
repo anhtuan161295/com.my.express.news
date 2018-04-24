@@ -22,13 +22,25 @@
 							<div class="wrap">
 								<div class="top-menu">
 									<ul>
-										<c:forEach items="${content.valueList.MenuItems}" var="item">
-											<li>
-												<ex:a link="${item}">
-													${cms.vfs.property[item]['NavText']}
-												</ex:a>
-											</li>
-										</c:forEach>
+										<%--<c:forEach items="${content.valueList.MenuItems}" var="item">--%>
+											<%--<li>--%>
+												<%--<ex:a link="${item}">--%>
+													<%--${cms.vfs.property[item]['NavText']}--%>
+												<%--</ex:a>--%>
+											<%--</li>--%>
+										<%--</c:forEach>--%>
+											<c:set var="currentLocale" value="${cms.locale}"/>
+											<c:forEach var="locentry" items="${cms.localeResource}">
+
+												<c:if test="${not empty locentry.value}">
+													<li>
+														<ex:a link="${locentry.value.link}">
+															${locentry.key}
+														</ex:a>
+													</li>
+												</c:if>
+
+											</c:forEach>
 									</ul>
 								</div>
 								<div class="num">

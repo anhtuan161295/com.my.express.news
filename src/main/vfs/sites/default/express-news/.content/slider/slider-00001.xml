@@ -45,4 +45,48 @@
       </Link>
     </SliderItems>
   </ExpressNewsSlider>
+  <ExpressNewsSlider language="de">
+    <SliderItems>
+      <ImageLink>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/system/modules/com.my.express.news/resources/images/1.jpg]]></target>
+          <uuid>fc98afed-3308-11e8-94f3-e5c82a707ed0</uuid>
+        </link>
+      </ImageLink>
+      <Title><![CDATA[test DE]]></Title>
+      <Link>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://vnexpress.net/tin-tuc/the-gioi/cuoc-song-do-day/nguoi-dan-syria-do-ra-pho-an-mung-ten-lua-my-bi-ban-ha-3736734.html]]></target>
+        </link>
+      </Link>
+    </SliderItems>
+    <SliderItems>
+      <ImageLink>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/system/modules/com.my.express.news/resources/images/2.jpg]]></target>
+          <uuid>fccfc580-3308-11e8-94f3-e5c82a707ed0</uuid>
+        </link>
+      </ImageLink>
+      <Title><![CDATA[Trung tâm nghiên cứu khoa học của Syria ở ngoại ô Damascus hoang tàn sau trận không kích sáng nay của Mỹ, Anh và Pháp.]]></Title>
+      <Link>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://vnexpress.net/photo/cuoc-song-do-day/toa-nha-syria-nat-vun-sau-tran-khong-kich-cua-lien-quan-my-3736855.html]]></target>
+        </link>
+      </Link>
+    </SliderItems>
+    <SliderItems>
+      <ImageLink>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/system/modules/com.my.express.news/resources/images/3.jpg]]></target>
+          <uuid>fd049123-3308-11e8-94f3-e5c82a707ed0</uuid>
+        </link>
+      </ImageLink>
+      <Title><![CDATA[Tác động hạn chế của đòn không kích Mỹ nhắm vào Syria]]></Title>
+      <Link>
+        <link internal="false" type="WEAK">
+          <target><![CDATA[https://vnexpress.net/tin-tuc/the-gioi/phan-tich/tac-dong-han-che-cua-don-khong-kich-my-nham-vao-syria-3737117.html]]></target>
+        </link>
+      </Link>
+    </SliderItems>
+  </ExpressNewsSlider>
 </ExpressNewsSliders>
