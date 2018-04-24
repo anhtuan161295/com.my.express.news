@@ -31,7 +31,7 @@
 						</form>
 					</div>
 
-					<c:set var="sendMailPath"><ex:link link="/system/modules/com.my.express.news/formatters/sendEmail.jsp"/></c:set>
+					<c:set var="sendMailPath"><ex:link link="/express-news/api/sendEmail.jsp"/></c:set>
 
 					<script>
 						$(document).ready(function () {

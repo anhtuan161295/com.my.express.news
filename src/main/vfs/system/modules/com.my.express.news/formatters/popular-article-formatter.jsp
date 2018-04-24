@@ -31,7 +31,8 @@
 						<ex:a link="${content.filename}" cssclass="title">
 							${content.value.Title}
 						</ex:a>
-						<p>${content.value.Date}
+						<fmt:formatDate var="formattedDate" pattern="MMM dd" value = "${cms:convertDate(content.value.Date)}" />
+						<p>${formattedDate}
 							<ex:a link="${content.filename}" cssclass="span_link">
 								<span class="glyphicon glyphicon-comment"></span>${content.value.Comment}
 							</ex:a>

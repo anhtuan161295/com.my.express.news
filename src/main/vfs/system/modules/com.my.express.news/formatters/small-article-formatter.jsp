@@ -30,7 +30,10 @@
 							<div class="c-text">
 								<h6>${content.value.Title}</h6>
 								<ex:a link="${content.filename}" cssclass="power">${content.value.ShortDescription}</ex:a>
-								<p class="date">${content.value.Date}</p>
+								<p class="date">
+									<fmt:formatDate var="formattedDate" pattern="MMM dd" value = "${cms:convertDate(content.value.Date)}" />
+									On ${formattedDate}
+								</p>
 								<ex:a link="${content.filename}" cssclass="reu">
 									<img src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/images/more.png)</cms:link>" alt="" />
 								</ex:a>
@@ -50,7 +53,10 @@
 							<div class="sc-text">
 								<h6>${content.value.Title}</h6>
 								<ex:a link="${content.filename}" cssclass="power">${content.value.ShortDescription}</ex:a>
-								<p class="date">${content.value.Date}</p>
+								<p class="date">
+									<fmt:formatDate var="formattedDate" pattern="MMM dd" value = "${cms:convertDate(content.value.Date)}" />
+									On ${formattedDate}
+								</p>
 								<ex:a link="${content.filename}" cssclass="reu">
 									<img src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/images/more.png)</cms:link>" alt="" />
 								</ex:a>

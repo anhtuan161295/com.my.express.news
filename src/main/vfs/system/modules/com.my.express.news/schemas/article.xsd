@@ -20,7 +20,7 @@
 			<xsd:element name="Content" type="OpenCmsString" />
 			<xsd:element name="Categories" type="OpenCmsVarLink" minOccurs="0" maxOccurs="unbounded" />
 			<!--<xsd:element name="RelatedArticles" type="OpenCmsArticleList" />-->
-			<xsd:element name="Date" type="OpenCmsString" />
+			<xsd:element name="Date" type="OpenCmsDateTime" />
 			<xsd:element name="Comment" type="OpenCmsString"/>
 			<xsd:element name="View" type="OpenCmsString"/>
 			<xsd:element name="Like" type="OpenCmsString"/>

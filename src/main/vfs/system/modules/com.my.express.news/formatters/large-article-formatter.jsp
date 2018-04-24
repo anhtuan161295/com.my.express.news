@@ -24,9 +24,15 @@
 						</div>
 						<div class="article-right">
 							<div class="article-title">
-								<p>${content.value.Date}
+								<fmt:formatDate var="formattedDate" pattern="MMM dd" value = "${cms:convertDate(content.value.Date)}" />
+								<p>On ${formattedDate}
 									<ex:a link="${content.filename}" cssclass="span_link">
-										<span class="glyphicon glyphicon-comment"></span>${content.value.Comment}
+										<c:set var="hostPath"><ex:link link="${content.filename}"/></c:set>
+										<c:set var="hostName" value="${cms.requestContext.requestMatcher}" />
+										<c:set var="currentUrl" value="${hostName}${hostPath}" />
+										<span class="glyphicon glyphicon-comment"></span><span class="fb-comments-count" data-href="${currentUrl}"></span>
+
+										<%--<span class="glyphicon glyphicon-comment"></span>${content.value.Comment}--%>
 									</ex:a>
 									<ex:a link="${content.filename}" cssclass="span_link">
 										<span class="glyphicon glyphicon-eye-open"></span>${content.value.View}
