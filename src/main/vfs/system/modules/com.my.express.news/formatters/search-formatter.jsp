@@ -4,6 +4,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="ex" tagdir="/WEB-INF/tags/express-news" %>
 
 <cms:formatter var="content">
 
@@ -104,11 +105,18 @@
 
 					<br/><br/>
 
-					<c:forEach begin="1" end="${totalPage}" varStatus="status">
-						<c:if test="${totalCount > resultPerPage}">
-							<a href="<cms:link>${cms.requestContext.uri}</cms:link>?q=${searchquery}&page=${status.count}">${status.count}</a>
-						</c:if>
-					</c:forEach>
+					<nav aria-label="Page navigation example">
+						<ul class="pagination">
+							<c:forEach begin="1" end="${totalPage}" varStatus="status">
+								<c:if test="${totalCount > resultPerPage}">
+									<c:set var="rewriteLink"><ex:link link="${cms.requestContext.uri}"/></c:set>
+									<li class="page-item">
+										<a class="page-link" href="${rewriteLink}?q=${searchquery}&page=${status.count}">${status.count}</a>
+									</li>
+								</c:if>
+							</c:forEach>
+						</ul>
+					</nav>
 
 					<br/><br/>
 
