@@ -6,7 +6,25 @@
     <Category>
       <link internal="true" type="WEAK">
         <target><![CDATA[/sites/default/express-news/home/]]></target>
-        <uuid>ccc58c7b-330d-11e8-b78e-e5c82a707ed0</uuid>
+        <uuid>3a1a1ac2-4148-11e8-b1cb-e5c82a707ed0</uuid>
+      </link>
+    </Category>
+    <Category>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/sports/]]></target>
+        <uuid>c9c4f475-476f-11e8-94df-e5c82a707ed0</uuid>
+      </link>
+    </Category>
+    <Category>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/health/]]></target>
+        <uuid>d6c77db1-476f-11e8-94df-e5c82a707ed0</uuid>
+      </link>
+    </Category>
+    <Category>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/technology/]]></target>
+        <uuid>270a0fe2-4770-11e8-94df-e5c82a707ed0</uuid>
       </link>
     </Category>
   </ExpressNewsCategory>

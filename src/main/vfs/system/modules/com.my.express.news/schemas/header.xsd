@@ -15,7 +15,7 @@
 			<xsd:element name="MenuItems" type="OpenCmsVarLink" minOccurs="0" maxOccurs="5"/>
 			<xsd:element name="Message" type="OpenCmsString"/>
 			<xsd:element name="HomePageLink" type="OpenCmsVarLink"/>
-			<xsd:element name="LogoImageLink" type="OpenCmsVarLink"/>
+			<xsd:element name="LogoImageLink" type="OpenCmsVfsFile"/>
 			<xsd:element name="MarqueeTitle" type="OpenCmsString"/>
 			<xsd:element name="MarqueeItems" type="OpenCmsVarLink" minOccurs="0" maxOccurs="5"/>
 			<xsd:element name="SearchPageLink" type="OpenCmsVarLink"/>
@@ -34,6 +34,7 @@
 				<!--<default element="Text" value="Add your text" />-->
 			</defaults>
 			<layouts>
+				<layout element="LogoImageLink" widget="ImageGalleryWidget" configuration="{useformat:true}" />
 				<!--<layout element="Text" widget="HtmlWidget" configuration="downloadgallery" />-->
 				<!--<layout element="Image" widget="ImageGalleryWidget" configuration="{useformat:true}" />-->
 			</layouts>

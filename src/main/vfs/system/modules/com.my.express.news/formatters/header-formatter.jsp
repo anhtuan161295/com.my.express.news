@@ -39,7 +39,9 @@
 						</div>
 						<div class="header-bottom">
 							<div class="logo text-center">
-								<a href="${content.value.HomePageLink}"><cms:img src="${content.value.LogoImageLink}" alt=""/></a>
+								<ex:a link="${content.value.HomePageLink}">
+									<cms:img src="${content.value.LogoImageLink}" alt=""/>
+								</ex:a>
 							</div>
 							<div class="navigation">
 								<nav class="navbar navbar-default" role="navigation">

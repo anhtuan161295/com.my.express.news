@@ -16,7 +16,7 @@
 			<xsd:element name="CategoriesLabel" type="OpenCmsString"/>
 			<xsd:element name="Categories" type="OpenCmsVarLink" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element name="FeedsLabel" type="OpenCmsString"/>
-			<xsd:element name="Feeds" type="OpenCmsVarLink" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="Feeds" type="OpenCmsVfsFile" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element name="ContactUsLabel" type="OpenCmsString"/>
 			<xsd:element name="OurHeadquarterText" type="OpenCmsString"/>
 			<xsd:element name="Address" type="OpenCmsString"/>
@@ -38,6 +38,7 @@
 				<!--<default element="Text" value="Add your text" />-->
 			</defaults>
 			<layouts>
+				<layout element="Feeds" widget="ImageGalleryWidget" configuration="{useformat:true}" />
 				<layout element="AboutUs" widget="HtmlWidget"
 					configuration="height:400px,link,anchor,source,downloadgallery,formatselect"/>
 				<layout element="CopyrightText" widget="HtmlWidget"

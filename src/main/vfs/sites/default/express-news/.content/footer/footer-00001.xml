@@ -5,23 +5,71 @@
     <AboutUsLabel><![CDATA[About Us]]></AboutUsLabel>
     <AboutUs><![CDATA[<p>Lorem ipsum1</p>]]></AboutUs>
     <CategoriesLabel><![CDATA[Categories]]></CategoriesLabel>
+    <Categories>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/home/]]></target>
+        <uuid>3a1a1ac2-4148-11e8-b1cb-e5c82a707ed0</uuid>
+      </link>
+    </Categories>
+    <Categories>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/sports/]]></target>
+        <uuid>c9c4f475-476f-11e8-94df-e5c82a707ed0</uuid>
+      </link>
+    </Categories>
+    <Categories>
+      <link internal="true" type="WEAK">
+        <target><![CDATA[/sites/default/express-news/entertainment/]]></target>
+        <uuid>e53de23d-476f-11e8-94df-e5c82a707ed0</uuid>
+      </link>
+    </Categories>
     <FeedsLabel><![CDATA[Feeds]]></FeedsLabel>
     <Feeds>
-      <link internal="true" type="WEAK">
+      <link type="WEAK">
         <target><![CDATA[/system/modules/com.my.express.news/resources/images/tech5.jpg]]></target>
         <uuid>0e65b97f-3309-11e8-94f3-e5c82a707ed0</uuid>
       </link>
     </Feeds>
     <Feeds>
-      <link internal="true" type="WEAK">
+      <link type="WEAK">
         <target><![CDATA[/system/modules/com.my.express.news/resources/images/tech6.jpg]]></target>
         <uuid>0e97ed12-3309-11e8-94f3-e5c82a707ed0</uuid>
       </link>
     </Feeds>
     <Feeds>
-      <link internal="true" type="WEAK">
+      <link type="WEAK">
         <target><![CDATA[/system/modules/com.my.express.news/resources/images/tech1.jpg]]></target>
         <uuid>0d90b633-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Feeds>
+    <Feeds>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/pcrt1.jpg]]></target>
+        <uuid>070a0789-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Feeds>
+    <Feeds>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/g8.jpg]]></target>
+        <uuid>051bf30e-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Feeds>
+    <Feeds>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/popular-3.jpg]]></target>
+        <uuid>07cd5795-3309-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Feeds>
+    <Feeds>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/f5.jpg]]></target>
+        <uuid>fc2ef197-3308-11e8-94f3-e5c82a707ed0</uuid>
+      </link>
+    </Feeds>
+    <Feeds>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/com.my.express.news/resources/images/tcrt1.jpg]]></target>
+        <uuid>0c39d9ae-3309-11e8-94f3-e5c82a707ed0</uuid>
       </link>
     </Feeds>
     <ContactUsLabel><![CDATA[Contact Us]]></ContactUsLabel>
