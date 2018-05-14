@@ -1,0 +1,23 @@
+<fileinfo>
+    <file>
+        <source>${source}</source>
+        <destination>${destination}</destination>
+        <type>formatter_config</type>
+        <uuidstructure>2afc0f0d-54f6-11e8-bb0b-e5c82a707ed0</uuidstructure>
+        <uuidresource>2afc0f0e-54f6-11e8-bb0b-e5c82a707ed0</uuidresource>
+        <datelastmodified>Mon, 14 May 2018 01:52:12 GMT</datelastmodified>
+        <userlastmodified>Admin</userlastmodified>
+        <datecreated>Fri, 11 May 2018 08:34:49 GMT</datecreated>
+        <usercreated>Admin</usercreated>
+        <flags>0</flags>
+        <properties>
+            <property>
+                <name>Title</name>
+                <value><![CDATA[UGC]]></value>
+            </property>
+        </properties>
+        <relations/>
+        <accesscontrol/>
+    </file>
+    <siblingcount>1</siblingcount>
+</fileinfo>

@@ -1,0 +1,35 @@
+<fileinfo>
+    <file>
+        <source>${source}</source>
+        <destination>${destination}</destination>
+        <type>formatter_config</type>
+        <uuidstructure>0d7af223-333e-11e8-853f-e5c82a707ed0</uuidstructure>
+        <uuidresource>0d7af224-333e-11e8-853f-e5c82a707ed0</uuidresource>
+        <datelastmodified>Mon, 14 May 2018 01:50:13 GMT</datelastmodified>
+        <userlastmodified>Admin</userlastmodified>
+        <datecreated>Thu, 29 Mar 2018 10:43:44 GMT</datecreated>
+        <usercreated>Admin</usercreated>
+        <flags>0</flags>
+        <properties>
+            <property>
+                <name>Title</name>
+                <value><![CDATA[Large Article List]]></value>
+            </property>
+            <property>
+                <name>locale</name>
+                <value><![CDATA[en]]></value>
+            </property>
+            <property>
+                <name>locale-available</name>
+                <value><![CDATA[en]]></value>
+            </property>
+            <property>
+                <name>search.exclude</name>
+                <value><![CDATA[all]]></value>
+            </property>
+        </properties>
+        <relations/>
+        <accesscontrol/>
+    </file>
+    <siblingcount>1</siblingcount>
+</fileinfo>

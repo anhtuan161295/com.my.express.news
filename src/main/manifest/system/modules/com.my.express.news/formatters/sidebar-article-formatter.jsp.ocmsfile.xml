@@ -1,0 +1,27 @@
+<fileinfo>
+    <file>
+        <source>${source}</source>
+        <destination>${destination}</destination>
+        <type>jsp</type>
+        <uuidstructure>1d9004ab-3732-11e8-9b90-e5c82a707ed0</uuidstructure>
+        <uuidresource>1d9004ac-3732-11e8-9b90-e5c82a707ed0</uuidresource>
+        <datelastmodified>Mon, 14 May 2018 01:56:13 GMT</datelastmodified>
+        <userlastmodified>Admin</userlastmodified>
+        <datecreated>Tue, 03 Apr 2018 11:28:21 GMT</datecreated>
+        <usercreated>Admin</usercreated>
+        <flags>0</flags>
+        <properties>
+            <property>
+                <name>Title</name>
+                <value><![CDATA[Formatter JSP for Sidebar Article]]></value>
+            </property>
+            <property type="shared">
+                <name>export</name>
+                <value><![CDATA[false]]></value>
+            </property>
+        </properties>
+        <relations/>
+        <accesscontrol/>
+    </file>
+    <siblingcount>1</siblingcount>
+</fileinfo>

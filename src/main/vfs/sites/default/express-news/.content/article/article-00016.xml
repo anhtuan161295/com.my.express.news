@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/article.xsd">
+  <ExpressNewsArticle language="en">
+    <Title><![CDATA[Add a new title here]]></Title>
+    <ShortDescription><![CDATA[test description]]></ShortDescription>
+    <Thumbnail>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/express-news/.content/uploaded/000005S01_3ovqfgxx.png]]></target>
+        <uuid>81a8a799-573f-11e8-a500-e5c82a707ed0</uuid>
+      </link>
+    </Thumbnail>
+    <VideoLink>
+      <link internal="false" type="WEAK">
+        <target><![CDATA[test video]]></target>
+      </link>
+    </VideoLink>
+    <Content><![CDATA[test content]]></Content>
+    <Categories>
+      <link internal="false" type="WEAK">
+        <target><![CDATA[abc]]></target>
+      </link>
+    </Categories>
+    <Date>0</Date>
+    <Comment><![CDATA[123]]></Comment>
+    <View><![CDATA[321]]></View>
+    <Like><![CDATA[123]]></Like>
+  </ExpressNewsArticle>
+</ExpressNewsArticles>

@@ -1,0 +1,23 @@
+<fileinfo>
+    <file>
+        <source>${source}</source>
+        <destination>${destination}</destination>
+        <type>plain</type>
+        <uuidstructure>c7d3b82f-330e-11e8-b78e-e5c82a707ed0</uuidstructure>
+        <uuidresource>c7d3b830-330e-11e8-b78e-e5c82a707ed0</uuidresource>
+        <datelastmodified>Mon, 16 Apr 2018 06:27:12 GMT</datelastmodified>
+        <userlastmodified>Admin</userlastmodified>
+        <datecreated>Thu, 29 Mar 2018 05:05:20 GMT</datecreated>
+        <usercreated>Admin</usercreated>
+        <flags>0</flags>
+        <properties>
+            <property>
+                <name>Title</name>
+                <value><![CDATA[Sample resource type schema]]></value>
+            </property>
+        </properties>
+        <relations/>
+        <accesscontrol/>
+    </file>
+    <siblingcount>1</siblingcount>
+</fileinfo>

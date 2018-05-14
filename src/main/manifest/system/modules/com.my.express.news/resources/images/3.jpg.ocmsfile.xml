@@ -1,0 +1,23 @@
+<fileinfo>
+    <file>
+        <source>${source}</source>
+        <destination>${destination}</destination>
+        <type>image</type>
+        <uuidstructure>fd049123-3308-11e8-94f3-e5c82a707ed0</uuidstructure>
+        <uuidresource>fd049124-3308-11e8-94f3-e5c82a707ed0</uuidresource>
+        <datelastmodified>Thu, 29 Mar 2018 04:23:53 GMT</datelastmodified>
+        <userlastmodified>Admin</userlastmodified>
+        <datecreated>Thu, 29 Mar 2018 04:23:53 GMT</datecreated>
+        <usercreated>Admin</usercreated>
+        <flags>0</flags>
+        <properties>
+            <property type="shared">
+                <name>image.size</name>
+                <value><![CDATA[w:839,h:450]]></value>
+            </property>
+        </properties>
+        <relations/>
+        <accesscontrol/>
+    </file>
+    <siblingcount>1</siblingcount>
+</fileinfo>

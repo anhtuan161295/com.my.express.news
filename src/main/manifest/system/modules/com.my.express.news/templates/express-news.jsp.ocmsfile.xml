@@ -1,0 +1,23 @@
+<fileinfo>
+    <file>
+        <source>${source}</source>
+        <destination>${destination}</destination>
+        <type>jsp</type>
+        <uuidstructure>228d0e58-3306-11e8-94f3-e5c82a707ed0</uuidstructure>
+        <uuidresource>228d0e59-3306-11e8-94f3-e5c82a707ed0</uuidresource>
+        <datelastmodified>Tue, 24 Apr 2018 04:46:21 GMT</datelastmodified>
+        <userlastmodified>Admin</userlastmodified>
+        <datecreated>Thu, 29 Mar 2018 04:03:27 GMT</datecreated>
+        <usercreated>Admin</usercreated>
+        <flags>0</flags>
+        <properties>
+            <property type="shared">
+                <name>export</name>
+                <value><![CDATA[false]]></value>
+            </property>
+        </properties>
+        <relations/>
+        <accesscontrol/>
+    </file>
+    <siblingcount>1</siblingcount>
+</fileinfo>

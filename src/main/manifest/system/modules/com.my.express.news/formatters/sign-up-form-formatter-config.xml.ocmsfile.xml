@@ -1,0 +1,35 @@
+<fileinfo>
+    <file>
+        <source>${source}</source>
+        <destination>${destination}</destination>
+        <type>formatter_config</type>
+        <uuidstructure>43130aab-330e-11e8-b78e-e5c82a707ed0</uuidstructure>
+        <uuidresource>43130aac-330e-11e8-b78e-e5c82a707ed0</uuidresource>
+        <datelastmodified>Mon, 14 May 2018 01:51:39 GMT</datelastmodified>
+        <userlastmodified>Admin</userlastmodified>
+        <datecreated>Thu, 29 Mar 2018 05:01:38 GMT</datecreated>
+        <usercreated>Admin</usercreated>
+        <flags>0</flags>
+        <properties>
+            <property>
+                <name>Title</name>
+                <value><![CDATA[Sign Up Form]]></value>
+            </property>
+            <property>
+                <name>locale</name>
+                <value><![CDATA[en]]></value>
+            </property>
+            <property>
+                <name>locale-available</name>
+                <value><![CDATA[en]]></value>
+            </property>
+            <property>
+                <name>search.exclude</name>
+                <value><![CDATA[all]]></value>
+            </property>
+        </properties>
+        <relations/>
+        <accesscontrol/>
+    </file>
+    <siblingcount>1</siblingcount>
+</fileinfo>

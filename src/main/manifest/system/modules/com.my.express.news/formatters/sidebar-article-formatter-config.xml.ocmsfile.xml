@@ -1,0 +1,23 @@
+<fileinfo>
+    <file>
+        <source>${source}</source>
+        <destination>${destination}</destination>
+        <type>formatter_config</type>
+        <uuidstructure>1d56f349-3732-11e8-9b90-e5c82a707ed0</uuidstructure>
+        <uuidresource>1d56f34a-3732-11e8-9b90-e5c82a707ed0</uuidresource>
+        <datelastmodified>Mon, 14 May 2018 01:51:33 GMT</datelastmodified>
+        <userlastmodified>Admin</userlastmodified>
+        <datecreated>Tue, 03 Apr 2018 11:28:21 GMT</datecreated>
+        <usercreated>Admin</usercreated>
+        <flags>0</flags>
+        <properties>
+            <property>
+                <name>Title</name>
+                <value><![CDATA[Sidebar Article]]></value>
+            </property>
+        </properties>
+        <relations/>
+        <accesscontrol/>
+    </file>
+    <siblingcount>1</siblingcount>
+</fileinfo>

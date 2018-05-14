@@ -1,0 +1,23 @@
+<fileinfo>
+    <file>
+        <source>${source}</source>
+        <destination>${destination}</destination>
+        <type>formatter_config</type>
+        <uuidstructure>cca82ffc-3f09-11e8-90fa-e5c82a707ed0</uuidstructure>
+        <uuidresource>cca82ffd-3f09-11e8-90fa-e5c82a707ed0</uuidresource>
+        <datelastmodified>Mon, 14 May 2018 01:51:45 GMT</datelastmodified>
+        <userlastmodified>Admin</userlastmodified>
+        <datecreated>Fri, 13 Apr 2018 10:59:55 GMT</datecreated>
+        <usercreated>Admin</usercreated>
+        <flags>0</flags>
+        <properties>
+            <property>
+                <name>Title</name>
+                <value><![CDATA[Small Article]]></value>
+            </property>
+        </properties>
+        <relations/>
+        <accesscontrol/>
+    </file>
+    <siblingcount>1</siblingcount>
+</fileinfo>

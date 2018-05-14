@@ -1,0 +1,27 @@
+<fileinfo>
+    <file>
+        <source>${source}</source>
+        <destination>${destination}</destination>
+        <type>jsp</type>
+        <uuidstructure>295d7a3a-54f6-11e8-bb0b-e5c82a707ed0</uuidstructure>
+        <uuidresource>295da14b-54f6-11e8-bb0b-e5c82a707ed0</uuidresource>
+        <datelastmodified>Mon, 14 May 2018 07:10:06 GMT</datelastmodified>
+        <userlastmodified>Admin</userlastmodified>
+        <datecreated>Fri, 11 May 2018 08:34:46 GMT</datecreated>
+        <usercreated>Admin</usercreated>
+        <flags>0</flags>
+        <properties>
+            <property>
+                <name>Title</name>
+                <value><![CDATA[Formatter JSP for UGC]]></value>
+            </property>
+            <property type="shared">
+                <name>export</name>
+                <value><![CDATA[false]]></value>
+            </property>
+        </properties>
+        <relations/>
+        <accesscontrol/>
+    </file>
+    <siblingcount>1</siblingcount>
+</fileinfo>

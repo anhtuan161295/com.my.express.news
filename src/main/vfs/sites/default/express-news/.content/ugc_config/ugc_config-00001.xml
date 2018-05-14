@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UserGeneratedContentFormConfigurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ugc/schemas/ugc_config.xsd">
+  <UserGeneratedContentFormConfiguration language="en">
+    <Title><![CDATA[Express News UGC Form Configuration]]></Title>
+    <ContentType><![CDATA[express-news-article]]></ContentType>
+    <ContentPath>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/express-news/.content/article/]]></target>
+        <uuid>c616ec2f-47af-11e8-a806-e5c82a707ed0</uuid>
+      </link>
+    </ContentPath>
+    <NamePattern><![CDATA[article-%(number).xml]]></NamePattern>
+    <Locale><![CDATA[en]]></Locale>
+    <AutoPublish>false</AutoPublish>
+    <UserForGuest><![CDATA[Admin]]></UserForGuest>
+    <ProjectGroup><![CDATA[Administrators]]></ProjectGroup>
+    <UploadPath>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/express-news/.content/uploaded/]]></target>
+        <uuid>42195501-571b-11e8-8cbd-e5c82a707ed0</uuid>
+      </link>
+    </UploadPath>
+    <ValidExtensions><![CDATA[.png;.jpg;.jpeg;.gif]]></ValidExtensions>
+  </UserGeneratedContentFormConfiguration>
+</UserGeneratedContentFormConfigurations>

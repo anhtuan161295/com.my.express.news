@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExpressNewsArticles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/com.my.express.news/schemas/article.xsd">
+  <ExpressNewsArticle language="en">
+    <Title><![CDATA[Add a new title here]]></Title>
+    <ShortDescription/>
+    <Thumbnail/>
+    <VideoLink/>
+    <Content/>
+    <Date>0</Date>
+    <Comment/>
+    <View/>
+    <Like/>
+  </ExpressNewsArticle>
+</ExpressNewsArticles>

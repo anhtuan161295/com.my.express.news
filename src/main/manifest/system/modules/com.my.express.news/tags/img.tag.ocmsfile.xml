@@ -1,0 +1,18 @@
+<fileinfo>
+    <file>
+        <source>${source}</source>
+        <destination>${destination}</destination>
+        <type>plain</type>
+        <uuidstructure>5d1449c3-46d1-11e8-a27e-e5c82a707ed0</uuidstructure>
+        <uuidresource>5d1449c4-46d1-11e8-a27e-e5c82a707ed0</uuidresource>
+        <datelastmodified>Mon, 23 Apr 2018 08:36:05 GMT</datelastmodified>
+        <userlastmodified>Admin</userlastmodified>
+        <datecreated>Mon, 23 Apr 2018 08:36:05 GMT</datecreated>
+        <usercreated>Admin</usercreated>
+        <flags>0</flags>
+        <properties/>
+        <relations/>
+        <accesscontrol/>
+    </file>
+    <siblingcount>1</siblingcount>
+</fileinfo>
