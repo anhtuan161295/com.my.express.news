@@ -11,9 +11,19 @@
 
 	<xsd:complexType name="OpenCmsExpressNewsLayout">
 		<xsd:sequence>
-			<xsd:element name="Title" type="OpenCmsString"/>
+			<xsd:element name="Type" type="OpenCmsString"/>
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="optional"/>
 	</xsd:complexType>
+
+	<xsd:annotation>
+		<xsd:appinfo>
+			<layouts>
+				<layout element="Type" widget="SelectorWidget"
+						configuration="Default*|Detail" />
+			</layouts>
+			<searchsettings containerPageOnly="false"/>
+		</xsd:appinfo>
+	</xsd:annotation>
 
 </xsd:schema>

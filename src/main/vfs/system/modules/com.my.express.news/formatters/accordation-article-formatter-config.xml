@@ -7,7 +7,7 @@
     <Jsp>
       <link type="WEAK">
         <target><![CDATA[/system/modules/com.my.express.news/formatters/accordation-article-formatter.jsp]]></target>
-        <uuid>cfd5085f-3701-11e8-9b4f-e5c82a705ed0</uuid>
+        <uuid>fe84644f-372f-11e8-9b90-e5c82a707ed0</uuid>
       </link>
     </Jsp>
     <Rank><![CDATA[1000]]></Rank>

@@ -46,7 +46,7 @@
 							<div class="article-text">
 								<p>${content.value.ShortDescription}</p>
 								<ex:a link="${content.filename}">
-									<img src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/images/more.png)</cms:link>" alt="" />
+									<img src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/images/more.png:06d7d3f6-3309-11e8-94f3-e5c82a707ed0)</cms:link>" alt="" />
 								</ex:a>
 								<div class="clearfix"></div>
 							</div>

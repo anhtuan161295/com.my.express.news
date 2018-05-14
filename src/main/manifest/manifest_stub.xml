@@ -2,7 +2,7 @@
     <info>
         <creator>Admin</creator>
         <opencms_version>10.5.3</opencms_version>
-        <createdate>Thu, 26 Apr 2018 03:52:54 GMT</createdate>
+        <createdate>Mon, 14 May 2018 07:26:31 GMT</createdate>
         <infoproject>Offline</infoproject>
         <export_version>7</export_version>
     </info>
@@ -59,9 +59,6 @@
             <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-tag" id="20829">
                 <param name="schema">/system/modules/com.my.express.news/schemas/tag.xsd</param>
             </type>
-            <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-layout-detail" id="20831">
-                <param name="schema">/system/modules/com.my.express.news/schemas/layout-detail.xsd</param>
-            </type>
             <type class="org.opencms.file.types.CmsResourceTypeXmlContent" name="express-news-share" id="20832">
                 <param name="schema">/system/modules/com.my.express.news/schemas/share.xsd</param>
             </type>
@@ -111,9 +108,6 @@
             </explorertype>
             <explorertype name="express-news-tag" key="fileicon.express-news-tag" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
                 <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-tag" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-tag" key="title.express-news-tag"/>
-            </explorertype>
-            <explorertype name="express-news-layout-detail" key="fileicon.express-news-layout-detail" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
-                <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-layout-detail" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-layout-detail" key="title.express-news-layout-detail"/>
             </explorertype>
             <explorertype name="express-news-share" key="fileicon.express-news-share" icon="express-news.png" bigicon="express-news_big.png" reference="xmlcontent">
                 <newresource page="structurecontent" uri="newresource_xmlcontent.jsp?newresourcetype=express-news-share" order="10" autosetnavigation="false" autosettitle="false" info="desc.express-news-share" key="title.express-news-share"/>

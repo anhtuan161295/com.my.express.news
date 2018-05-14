@@ -6,7 +6,7 @@
     <Type><![CDATA[express-news-popular-article-list]]></Type>
     <Jsp>
       <link type="WEAK">
-        <target><![CDATA[/system/modules/com.my.express.news/formatters/express-news-popular-article-list-formatter.jsp]]></target>
+        <target><![CDATA[/system/modules/com.my.express.news/formatters/popular-article-list-formatter.jsp]]></target>
         <uuid>c7e8c6da-330e-11e8-b78e-e5c82a707ed0</uuid>
       </link>
     </Jsp>

@@ -126,8 +126,8 @@
 													</div>
 												</div>
 												<!-- search-scripts -->
-												<script src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/js/classie.js)</cms:link>"></script>
-												<script src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/js/uisearch.js)</cms:link>"></script>
+												<script src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/js/classie.js:0fa5b39f-3309-11e8-94f3-e5c82a707ed0)</cms:link>"></script>
+												<script src="<cms:link>%(link.weak:/system/modules/com.my.express.news/resources/js/uisearch.js:10fe65dd-3309-11e8-94f3-e5c82a707ed0)</cms:link>"></script>
 												<script>
                                                   new UISearch(document.getElementById('sb-search'));
 												</script>
